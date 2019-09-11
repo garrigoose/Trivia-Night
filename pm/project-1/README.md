@@ -39,9 +39,7 @@ DRY (Don't Repeat Yourself) principles.
 ## Submission
 
 **_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to this repo:
-
-[github.com/ga-dc/project1-gallery](https://github.com/ga-dc/project1-gallery/issues/new?body=Link%20to%20repo%3A%0ALink%20to%20deployed%20app%3A%0A%0AThings%20you%27d%20like%20specific%20feedback%20on%3A%0A%0A)
+your project as an issue to [this repo](https://git.generalassemb.ly/seir-826/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
