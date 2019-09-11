@@ -44,7 +44,7 @@ your project as an issue to this repo:
 [github.com/ga-dc/project1-gallery](https://github.com/ga-dc/project1-gallery/issues/new?body=Link%20to%20repo%3A%0ALink%20to%20deployed%20app%3A%0A%0AThings%20you%27d%20like%20specific%20feedback%20on%3A%0A%0A)
 
 You must turn in something before presentations begin. However, you're welcome
-to continue working on it over the course of SEI and beyond!
+to continue working on it over the course of SEIR and beyond!
 
 With your submission please include any questions you'd like answered, or
 specific things on which you'd like us to focus when giving feedback.
@@ -72,14 +72,8 @@ The URL section of your Github repo:
 
 ### Office Hours Appointments
 
-Instructors will be hosting office hours between 10:00 to 12:00 and 2:00 to 4:00
-each day of project week. Unlike normal office hours, project hours are by
-appointment. You can sign up for a 20 minute time slot, to have your project
-reviewed, and questions answered,
-[on the SEI 32 course calendar](https://calendar.google.com/calendar/selfsched?sstoken=UUdhcmVDeElwTnhxfGRlZmF1bHR8OTA2NDU4MDk1YzVmODJmMjA4YjdhNTcwZjJiZDgyOTU).
-
-The normal afternoon and evening office hours schedule will **not** be observed
-during project week.
+Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET
+each day of project week. 
 
 > The purpose of this project is for you to show us and future employers what
 > you're capable of, so we want as much of the project to be your own,
@@ -92,12 +86,6 @@ for help directly. This will not only make you a better developer but a better
 learner. Visit
 [this readme](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/asking-for-help.md)
 for more details on asking for help.
-
-### Project Review
-
-During the week, the instructors will be hosting a project review. The purpose
-of this time is to have your code and progress reviewed, to make sure you're on
-track to finish.
 
 **You should use this time to ask for constructive feedback, so come with
 questions prepared and specific things you'd like advice on.**
@@ -225,9 +213,7 @@ provide breaks between each session.
 This means **no working on your code** while others are presenting. This is your
 chance to ask others how they tackled their project.
 
-Each session of presentations will be science-fair style. Several people will
-set up at a given time, and other students will walk around asking questions
-like:
+You can expect to be asked questions like:
 
 - What would you do differently?
 - What are you most proud of?
@@ -239,9 +225,6 @@ like:
 
 - [UX Design for Developers](https://hackernoon.com/ux-design-for-developers-d3429200a1da)
 - [Design for Developers](https://medium.com/forge-uk/design-for-developers-part-one-basic-principles-a44329651cd)
-
-**Note:** There are designers on campus. Try asking them for help and offering
-your coding skills in return!
 
 ## Pre-employment checklist
 
