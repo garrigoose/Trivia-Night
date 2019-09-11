@@ -107,7 +107,7 @@ questions prepared and specific things you'd like advice on.**
 - **Make it work, make it good, make it fast.** Don't get hung up on only saving
   or writing code that is good code. Get it working first, even if it means
   writing bad or ugly code. Once it's working, come back and refactor!
-- **Consult documentation resources** (MDN, jQuery, etc.) at home to better
+- **Consult documentation resources** (MDN, etc.) to better
   understand what you’ll be getting into.
 - **Don’t be afraid to write code that you know you will have to remove later.**
   Create temporary elements (buttons, links, etc) that trigger events if real
@@ -196,7 +196,6 @@ _Bonus:_
 
 - [MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
   _(a great reference for all things Vanilla Javascript)_
-- [jQuery Docs](http://api.jquery.com) _(if you're using jQuery)_
 - [Github Pages](https://pages.github.com) _(for hosting your game)_
 
 ## Evaluation
