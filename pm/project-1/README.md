@@ -263,7 +263,7 @@ for jobs by completing some (or all) of the following:
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the plagiarism policy,
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-129/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
