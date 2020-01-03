@@ -39,7 +39,7 @@ DRY (Don't Repeat Yourself) principles.
 ## Submission
 
 **_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to [this repo](https://git.generalassemb.ly/seir-8129/project1-gallery).
+your project as an issue to [this repo](https://git.generalassemb.ly/seir-129/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
