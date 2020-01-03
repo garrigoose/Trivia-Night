@@ -70,7 +70,7 @@ The URL section of your Github repo:
 
 ### Office Hours Appointments
 
-Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET
+Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET (except on Monday 1/6 when we will only be offering office hours from 2:00 - 4:00pm ET)
 each day of project week. 
 
 > The purpose of this project is for you to show us and future employers what
