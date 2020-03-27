@@ -32,6 +32,9 @@ Work through the series of prompts available in [`lib/`](lib/):
 - [Object Oriented Programming](lib/oop.js)
 - [Higher Order Functions](lib/hof.js)
 
+## Hungry for More?
+Check out [this repo](https://git.generalassemb.ly/seir-323/checkpoint-javascript)
+
 ## Plagiarism
 
 Take a moment to refamiliarize yourself with the [Plagiarism policy](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/plagiarism.md). Plagiarized work will not be accepted.
