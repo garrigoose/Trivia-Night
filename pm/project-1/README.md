@@ -70,8 +70,9 @@ The URL section of your Github repo:
 
 ### Office Hours Appointments
 
-Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET (except on Monday 1/6 when we will only be offering office hours from 2:00 - 4:00pm ET)
-each day of project week. 
+Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET
+each day of project week. The regular evening office hours will also be available.
+Check the course schedule for more information.
 
 > The purpose of this project is for you to show us and future employers what
 > you're capable of, so we want as much of the project to be your own,
@@ -196,12 +197,6 @@ _Bonus:_
   _(a great reference for all things Vanilla Javascript)_
 - [Github Pages](https://pages.github.com) _(for hosting your game)_
 
-## Evaluation
-
-Your instructors will use this rubric to assess your project:
-
-[Evaluation Rubric](evaluation.md)
-
 ## Presentations
 
 We expect everyone to attend all presentations in their entirety and will
@@ -263,7 +258,7 @@ for jobs by completing some (or all) of the following:
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-129/course-intro/blob/master/plagiarism.md),
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-323/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
