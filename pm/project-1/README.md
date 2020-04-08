@@ -134,8 +134,6 @@ _Bonus:_
 - Include images on one or both sides of the flash card
 - Let the user add flash cards (don't need to be saved across refreshes)
 
-[Here's an example from a previous student](http://sarah-yu.com/simon/)
-
 ### Self-scoring Trivia
 
 Pre-load your app with some questions and answers.
@@ -149,8 +147,6 @@ _Bonus:_
 - Track scores across games (even if the page is reloaded)
 - Allow users to compete against each other on a high-score board.
 
-[Here's an example from a previous student](https://sathyaram.github.io/oscarstriviagame/)
-
 ### Hangman
 
 Have a player enter a word that will be guessed during the game. The word is
@@ -161,8 +157,6 @@ _Bonus:_
 
 - Add timer-based scoring
 - Track scores across games (even if the page is reloaded)
-
-[Here's an example from a previous student](https://hangman-ntartaro.herokuapp.com/)
 
 ### Tower of Hanoi
 
@@ -180,8 +174,6 @@ _Bonus:_
 - Add time-based scoring
 - Track scores across games (even if the page is reloaded)
 
-[Here's an example from a previous student](https://nnguy152.github.io/01-Tower-of-Hanoi/)
-
 ### Simon
 
 <a href="https://en.wikipedia.org/wiki/Simon_">Simon</a> is a test of memory.
@@ -193,8 +185,6 @@ _Bonus:_
 
 - Add timer-based scoring
 - Track scores across games (even if the page is reloaded)
-
-[Here's an example from a previous student](https://aiyentam.github.io/Simon-Says/)
 
 ## Useful Resources
 
