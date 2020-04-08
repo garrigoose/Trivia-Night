@@ -20,9 +20,9 @@ along the process and helping as you go. Show us what you've got!
 > complex than you might think!
 ## Squads
 - ***Hou:*** Bijal, Sameishly, Jacob, Jyoti, Billy, TK, Kristen
-- ***Jennifer:*** Rose, William, Eric, Nick, Emiliano, Andres, Carol
+- ***Jennifer:*** William, Eric, Nick, Emiliano, Andres, Carol
 - ***Esin:*** Foolan, Raul, Sean, Justin, Brian, Connor
-- ***Carlos:*** Dan, Juan, Tina,  Sam, Rory, Trent
+- ***Carlos:*** Juan, Tina,  Sam, Rory, Trent
 
 ## Requirements
 
