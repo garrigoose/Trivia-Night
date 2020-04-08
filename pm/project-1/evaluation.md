@@ -43,8 +43,3 @@ considered complete:
 - The project is deployed to GitHub Pages or a custom domain
 - The application renders in the browser and runs without errors
 - The repo has a README that adequately documents the project
-
-## Incomplete Projects
-
-Incomplete projects will be giving a 1 week extension. **Note that you are
-allowed one extension on only one of the four projects.**
