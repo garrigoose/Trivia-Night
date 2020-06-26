@@ -5,7 +5,7 @@ JS! Please choose one of the following options:
 
 - **Flash Cards**
 - **Trivia (Self-scoring)**
-- **Hangman**
+- **Spaceman**
 - **Tower of Hanoi**
 - **Simon**
 
@@ -44,7 +44,7 @@ DRY (Don't Repeat Yourself) principles.
 ## Submission
 
 **_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to [this repo](https://git.generalassemb.ly/seir-323/project1-gallery).
+your project as an issue to [this repo](https://git.generalassemb.ly/seir-622/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
@@ -147,7 +147,7 @@ _Bonus:_
 - Track scores across games (even if the page is reloaded)
 - Allow users to compete against each other on a high-score board.
 
-### Hangman
+### Spaceman
 
 Have a player enter a word that will be guessed during the game. The word is
 then hidden and represented by blank spaces. The second player then chooses
@@ -253,7 +253,7 @@ for jobs by completing some (or all) of the following:
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-323/course-intro/blob/master/plagiarism.md),
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-622/course-intro/blob/master/plagiarism.md),
 specifically on using work you find online and on work you do with other
 students.
 
