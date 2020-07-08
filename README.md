@@ -71,12 +71,12 @@ The URL section of your Github repo:
 ### Office Hours Appointments
 
 Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET
-each day of project week. The regular evening office hours will also be available.
+each day of project week. The regular weekend office hours will also be available.
 Check the course schedule for more information.
 
 > The purpose of this project is for you to show us and future employers what
 > you're capable of, so we want as much of the project to be your own,
-> independent work as possible
+> independent work as possible. 
 
 ### Github Issues
 
