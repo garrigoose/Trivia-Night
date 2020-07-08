@@ -146,7 +146,7 @@ _Bonus:_
 
 Have a player enter a word that will be guessed during the game. The word is
 then hidden and represented by blank spaces. The second player then chooses
-letters, which are revealed if present.
+letters, which are revealed if present. If not, parts of the spaceman's spaceship are built. For an example, see [this video](https://videopress.com/v/Fk5cYswc). (Note, there are many variations on this game, including Parachute and Snowman -- feel free to get creative here!)
 
 _Bonus:_
 
