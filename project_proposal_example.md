@@ -1,6 +1,6 @@
 # Project Proposal Example
 
-## Project Choice
+## Project Choice (Tell us which project you're doing!)
 
 - [ ] Flash Cards
 - [ ] Trivia (Self-scoring)
