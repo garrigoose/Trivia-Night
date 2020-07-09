@@ -1,5 +1,13 @@
 # Project Proposal Example
 
+## Project Choice
+
+- [ ] Flash Cards
+- [ ] Trivia (Self-scoring)
+- [ ] Spaceman
+- [ ] Tower of Hanoi
+- [ ] Simon
+
 ## Project Description 
 
 My app is called Tic Tac Toe. It's a game app for players who want to play Tic Tac Toe online. Two players can join an online game and play a round of Tic Tac Toe, with the score being kept automatically and game results displayed at then end of a round -- whichever player won, or in the case of a draw, a tie between the users. Users will have the option to play again. In the future, I'd like to add a feature where one player can play against the computer. 
