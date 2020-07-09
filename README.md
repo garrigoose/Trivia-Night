@@ -21,6 +21,12 @@ along the process and helping as you go. Show us what you've got!
 
 ## Requirements
 
+### Project Proposal
+
+Create a project proposal outlining your project idea with wireframes and user stories. Send a link to your project proposal Markdown file on your GitHub repository via Slack to your Squad Lead by 12 pm ET on Day 1 of project week for approval. 
+
+An [example](project_proposal_example.md) proposal has been provided. 
+
 ### Technical Requirements
 
 Your app must:
@@ -38,8 +44,7 @@ DRY (Don't Repeat Yourself) principles.
 
 ## Submission
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository. Then, submit
-your project as an issue to [this repo](https://git.generalassemb.ly/seir-622/project1-gallery).
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [this repo](https://git.generalassemb.ly/seir-622/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
