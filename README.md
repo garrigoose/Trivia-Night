@@ -69,7 +69,7 @@ Your submission must include **all** of the following:
     for your project
 
 The URL section of your Github repo:
-![URL section](https://i.imgur.com/QQ7RsfR.gif)
+![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 
 ## Asking For Help
 
