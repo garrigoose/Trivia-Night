@@ -3,11 +3,11 @@
 For your first project, you'll be creating a familiar game using HTML, CSS and
 JS! Please choose one of the following options:
 
-- **Flash Cards**
-- **Trivia (Self-scoring)**
-- **Spaceman**
-- **Tower of Hanoi**
-- **Simon**
+- **[Flash Cards](project_choices.md#flash-cards)**
+- **[Trivia (Self-scoring)](project_choices.md#self-scoring-trivia)**
+- **[Spaceman](project_choices.md#spaceman)**
+- **[Tower of Hanoi](project_choices.md#tower-of-hanoi)**
+- **[Simon](project_choices.md#simon)**
 
 This is an opportunity to **be creative**, and work through some **tough
 programming challenges**.
@@ -23,28 +23,47 @@ along the process and helping as you go. Show us what you've got!
 
 ### Project Proposal
 
-Create a project proposal outlining your project idea with wireframes and user stories. Send a link to your project proposal Markdown file on your GitHub repository via Slack to your Squad Lead by 12 pm ET on Day 1 of project week for approval. 
+Create an issue in this repo using the **Project Proposal** issue template and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  An example of proposal can be found [here](project_proposal_example.md). 
 
-An [example](project_proposal_example.md) proposal has been provided. 
+Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
-### Technical Requirements
+### Project Requirements
 
 Your app must:
 
 - Render in the browser
 - Include separate HTML / CSS / JavaScript files
 - Use Javascript for DOM manipulation
-- Be deployed online, using [Github Project pages](https://pages.github.com)
-  and/or to a custom domain.
-- Use semantic markup for HTML and CSS (adhere to best practices)
-- Show a good commit history with frequent commits
+- Be deployed online using [Github Project pages](https://pages.github.com).
+- Use semantic, valid markup for HTML and CSS (must pass validation without errors)
+- Show a good commit history with frequent commits (minimum of one commit per project day)
 
-Additionally, your project should stick with KISS (Keep It Stupid Simple) and
-DRY (Don't Repeat Yourself) principles.
+#### Required Deliverables
 
-## Submission
+Your submission must include **all** of the following:
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [this repo](https://git.generalassemb.ly/seir-622/project1-gallery).
+- A game, built by you, hosted on Github Pages
+- Your HTML/CSS should pass the [HTML5 Validator](https://html5.validator.nu)
+  and [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- A git repository hosted on Github with frequent commits dating back to the
+  very beginning of the project (at least one commit is required per day of the project).
+- A `README.md` file that includes:
+  - [ ] An embedded screenshot of the app
+  - [ ] List of the **Technologies used**
+  - [ ] **Installation instructions**
+  - [ ] Your **User stories** – who are your users, what do they want
+        and why?
+  - [ ] Your **Wireframes** – sketches of major views / interfaces in
+        your application
+  - [ ] Descriptions of any **Unsolved problems** or **major hurdles** you had
+        to overcome
+  - A link to your hosted project in the URL section of your Github repo.
+
+![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
+
+#### Project Submission
+
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [this repo](https://git.generalassemb.ly/seir-921/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
@@ -52,27 +71,16 @@ to continue working on it over the course of SEIR and beyond!
 With your submission please include any questions you'd like answered, or
 specific things on which you'd like us to focus when giving feedback.
 
-### Necessary Deliverables
+## Project Week Format
 
-Your submission must include **all** of the following:
+— No daily attendance on Zoom required **except for Outcomes attendance**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
+- You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
+- You are required to communicate with your squad lead **daily**!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
+— Office hours can be found on the Course Schedule.
+— Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/sei-921/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
+— Project presentations will be begin at 1:00 pm ET on Wednesday 10/14.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.  
 
-- A hosted copy of your game, built by you, hosted on Github Pages
-- Your HTML/CSS should pass the [HTML5 Validator](https://html5.validator.nu)
-  and [CSS Validator](https://jigsaw.w3.org/css-validator/)
-- A git repository hosted on Github with frequent commits dating back to the
-  very beginning of the project
-- A link to your hosted project in the URL section of your Github repo
-- A `readme.md` file, including
-  - Explanations of the technologies used, the approach taken, installation
-    instructions, unsolved problems, etc.
-  - [Follow this mini-lesson on writing documentation](https://git.generalassemb.ly/dc-wdi-fundamentals/markdown-and-documentation)
-    for your project
-
-The URL section of your Github repo:
-
-![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
-
-## Asking For Help
+## Getting Help
 
 ### Office Hours Appointments
 
@@ -86,193 +94,18 @@ Check the course schedule for more information.
 
 ### Github Issues
 
-We strongly encourage you to file a Github issue prior to asking the instructors
-for help directly. This will not only make you a better developer but a better
-learner. Visit
-[this readme](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/asking-for-help.md)
-for more details on asking for help.
+We strongly encourage you to file a [Github issue in this repository](https://git.generalassemb.ly/sei-921/project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
+for help directly. 
 
-**You should use this time to ask for constructive feedback, so come with
-questions prepared and specific things you'd like advice on.**
+Having to articulate the question into words is very helpful in understanding the problem. Sometimes, simply articulating the question gives you the answer. 
 
-## Suggested Ways to Get Started
-
-[Create your bronze, silver, and gold plan.](https://github.com/ga-wdi-lessons/bronze-silver-gold)
-
-- **Break the project down into different components** (data, presentation,
-  views, style, DOM manipulation) and brainstorm each component individually.
-  Use whiteboards!
-- **Use your Development Tools** (console.log, inspector, alert statements, etc)
-  to debug and solve problems
-- Work through the lessons in class & ask questions when you need to! Think
-  about adding relevant code to your game each night, instead of, you know...
-  _procrastinating_.
-- **Commit early, commit often.** Don’t be afraid to break something because you
-  can always go back in time to a previous version.
-- **Make it work, make it good, make it fast.** Don't get hung up on only saving
-  or writing code that is good code. Get it working first, even if it means
-  writing bad or ugly code. Once it's working, come back and refactor!
-- **Consult documentation resources** (MDN, etc.) to better
-  understand what you’ll be getting into.
-- **Don’t be afraid to write code that you know you will have to remove later.**
-  Create temporary elements (buttons, links, etc) that trigger events if real
-  data is not available. For example, if you’re trying to figure out how to
-  change some text when the game is over but you haven’t solved the win/lose
-  game logic, you can create a button to simulate that until then.
-
-## Project Choices
-
-### Flash-Cards
-
-Pre-load your app with some data, and let the user flip through them quickly
-(back or front), and use the keyboard flip the card, and to mark whether they
-got it right or not. Track which cards were incorrect, and re-display them until
-the user gets them right!
-
-_Bonus:_
-
-- Track scores over time (even if the page is reloaded)
-- Include images on one or both sides of the flash card
-- Let the user add flash cards (don't need to be saved across refreshes)
-
-### Self-scoring Trivia
-
-Pre-load your app with some questions and answers.
-
-Test the user's wits & knowledge with whatever-the-heck you know about (so you
-can actually win). Guess answers, have the computer tell you how right you are!
-
-_Bonus:_
-
-- Add time-based scoring
-- Track scores across games (even if the page is reloaded)
-- Allow users to compete against each other on a high-score board.
-
-### Spaceman
-
-Have a player enter a word that will be guessed during the game. The word is
-then hidden and represented by blank spaces. The second player then chooses
-letters, which are revealed if present. If not, parts of the spaceman's spaceship are built. For an example, see [this video](https://videopress.com/v/Fk5cYswc). (Note, there are many variations on this game, including Parachute and Snowman -- feel free to get creative here!)
-
-_Bonus:_
-
-- Add timer-based scoring
-- Track scores across games (even if the page is reloaded)
-
-### Tower of Hanoi
-
-<a href="https://en.wikipedia.org/wiki/Tower_of_Hanoi">Tower of Hanoi</a> is a
-mathematical puzzle where the objective is to move a stack of discs from one rod
-to another. There are three rules:
-
-- Only one disk can be moved at a time
-- Every move involves taking the top disk from one of the stacks and placing it
-  on top of another stack
-- No disk can be put on top of a smaller disk
-
-_Bonus:_
-
-- Add time-based scoring
-- Track scores across games (even if the page is reloaded)
-
-### Simon
-
-<a href="https://en.wikipedia.org/wiki/Simon_">Simon</a> is a test of memory.
-Have your program choose a sequence of different colors at random and then
-prompt your player repeat the sequence allowing them to go to advance to next
-round if the player is successful.
-
-_Bonus:_
-
-- Add timer-based scoring
-- Track scores across games (even if the page is reloaded)
-
-## Useful Resources
-
-- [MDN Javascript Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  _(a great reference for all things Vanilla Javascript)_
-- [Github Pages](https://pages.github.com) _(for hosting your game)_
-
-## Presentations
-
-We expect everyone to attend all presentations in their entirety and will
-provide breaks between each session.
-
-This means **no working on your code** while others are presenting. This is your
-chance to ask others how they tackled their project.
-
-You can expect to be asked questions like:
-
-- What would you do differently?
-- What are you most proud of?
-- What would you do next?
-- How did you plan your project?
-- What did you learn?
-
-## Resources
-
-- [UX Design for Developers](https://hackernoon.com/ux-design-for-developers-d3429200a1da)
-- [Design for Developers](https://medium.com/forge-uk/design-for-developers-part-one-basic-principles-a44329651cd)
-
-## Pre-employment checklist
-
-Make sure your project looks professional and presentable when you go to apply
-for jobs by completing some (or all) of the following:
-
-- [ ] Add the deployed URL to repo settings
-- [ ] Add a readme with:
-  - [ ] An embedded screenshot of the app
-  - [ ] Explanations of the **technologies** used
-  - [ ] **Installation instructions** for any dependencies
-  - [ ] Link to your **user stories** – who are your users, what do they want
-        and why?
-  - [ ] Link to your **wireframes** – sketches of major views / interfaces in
-        your application
-  - [ ] Descriptions of any **unsolved problems** or **major hurdles** you had
-        to overcome
-- [ ] Add your project to your portfolio site
-  - [ ] Include an image, title, and brief description
-  - [ ] Link to both the deployed project and the repository on GitHub
-- [ ] Write and share a post linking to your project on LinkedIn. Be sure to
-      include:
-  - An image/screenshot of your project
-  - A link to the deployed version of your project
-  - A brief description of the project, mentioning that you are a new developer
-  - Appropriate tags for your post: `#webdevelopment`, `#developers`,
-    `#softwaredevelopment`, `#softwareengineers`
-- [ ] Write and share a post linking to your project on Twitter. Be sure to
-      include:
-  - An image/screenshot of your project
-  - A link to the deployed version of your project
-- [ ] Write and publish a brief blog post about your project to Medium or
-      Dev.to:
-  - Include what you decided to build, how you approached building, the "phases"
-    you went through, one particularly challenging technical hurdle and how you
-    overcame it, and a conclusion
-  - Include lots of images, code snippets, and screenshots
-  - Include a link to your repo and deployed project
+More importantly, submitting issues, creating bug reports, and posting questions about code on platforms like stackoverflow.com is something you will do ***regularly*** when you're employed in the industry.  Learning how to communicate about your code errors and issues is an essential skill that takes practice to get good at doing effectively and succinctly.
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-622/course-intro/blob/master/plagiarism.md),
-specifically on using work you find online and on work you do with other
-students.
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-921/course-intro/blob/master/plagiarism.md).  
 
-We give assignments like this to give you the opportunity to review the material
-in class in a practical manner. By building something using what you've learned
-in class, you'll be reviewing the material and gaining a deeper understanding of
-it.
-
-These assignments are similar to those you can expect when applying for a job,
+Projects give you an opportunity to apply the skills you're learning in a practical manner.  If you're struggling with something, that's okay!  In fact, that's why you're here -- if this was easy and you could do it already, you wouldn't be here. These assignments are similar to those you can expect when applying for a job,
 either in the form of a take-home coding challenge or an in-person technical
-interview. So it's important that you put in your best effort now and challenge
-yourself to do this assignment on your own.
-
-If you are struggling with the material, that's alright! That's why you're here.
-First, try reviewing the previous lessons and exercises. Go easy on yourself,
-you're still learning! If you're still struggling after that, come to office
-hours and ask an instructor for help. They're here to help you!
-
-Don't copy and paste from another source or another student or the solution
-branch. That's just going to put you at a disadvantage when you're interviewing
-for a job.
+interview. So lean in, get comfortable with being uncomfortable, and challenge
+yourself to complete this project on your own.
