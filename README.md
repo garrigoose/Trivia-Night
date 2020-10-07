@@ -57,7 +57,7 @@ Your submission must include **all** of the following:
         your application
   - [ ] Descriptions of any **Unsolved problems** or **major hurdles** you had
         to overcome
-  - A link to your hosted project in the URL section of your Github repo.
+- A link to your hosted project in the URL section of your Github repo.
 
 ![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 
