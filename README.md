@@ -40,14 +40,15 @@ Your app must:
 
 #### Required Deliverables
 
-Your submission must include **all** of the following:
+This is your project checklist.  Make sure to revisit it before you submit your project! Your submission must include **all** of the following:
 
 - A game, built by you, hosted on Github Pages
 - Your HTML/CSS should pass the [HTML5 Validator](https://html5.validator.nu)
   and [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- Your JavaScript should be cleanly formatted (use Prettier!) and not contain any console.logs (you can search for them with command + F [or ctrl + F on Windows/Ubuntu] and then remove them or comment them out).
 - A git repository hosted on Github with frequent commits dating back to the
-  very beginning of the project (at least one commit is required per day of the project).
-- A `README.md` file that includes:
+  very beginning of the project (**at least one commit is required per day of the project**).
+- A `README.md` file that includes the following sections:
   - [ ] An embedded screenshot of the app
   - [ ] List of the **Technologies used**
   - [ ] **Installation instructions**
