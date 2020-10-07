@@ -61,15 +61,37 @@ Your submission must include **all** of the following:
 
 ![URL section](https://media.giphy.com/media/WUsOlSNbPlE72OudJs/giphy.gif)
 
-#### Project Submission
+### Project Submission
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [this repo](https://git.generalassemb.ly/seir-921/project1-gallery).
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](https://git.generalassemb.ly/seir-921/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
 
 With your submission please include any questions you'd like answered, or
 specific things on which you'd like us to focus when giving feedback.
+
+Once you've submitted your project, make sure to visit your fellow cohort mates' projects.  Leave them some encouraging words or ask them about some code they wrote in the comments of their issue!
+
+### Project Presentations
+
+It is a common practice on development teams to have a demo day at the end of each development cycle every two weeks. On demo day, teams meet to share what they've accomplished during the current cycle (known as a sprint or iteration).  
+
+To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of and share their experience of working on the project.  
+
+You must present your project at this time, even if you did not complete the requirements.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.  
+
+During presentations, there should be **no working on your code** while others are presenting. This is your
+chance to ask others how they tackled their project.
+
+Be prepared to answer questions like:
+
+- What would you do differently?
+- What are you most proud of?
+- What would you do next?
+- How did you plan your project?
+- What did you learn?
+
 
 ## Project Week Format
 
