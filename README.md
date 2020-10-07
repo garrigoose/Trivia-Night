@@ -23,7 +23,7 @@ along the process and helping as you go. Show us what you've got!
 
 ### Project Proposal
 
-Create an issue in this repo using the **Project Proposal** issue template and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/sei-921/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
@@ -104,7 +104,7 @@ Be prepared to answer questions like:
 
 ## Recommendations for Success
 
-- Create a [bronze, silver, and gold plan](https://github.com/ga-wdi-lessons/bronze-silver-gold).  Always under promise so you can overdeliver!  You can always add more features if time allows, but if you focus on non-MVP features before your MVP is complete and run out of time, your submission will not satisfy the project requirements.
+- Create a [bronze, silver, and gold plan](https://github.com/ga-wdi-lessons/bronze-silver-gold).  This is your first project and you don't have a good way to estimate how long individual tasks will take, so it's better to set the bar low.  There's no problem with under-promising and over-delivering!  You can always add more features if time allows. However, if you focus on non-MVP features before your MVP is complete and run out of time, your submission will not satisfy the project requirements.
 - **Break the project down into different components** (data, presentation,
   views, style, DOM manipulation) and brainstorm each component individually.
   Use a whiteboard or notebook to capture your thoughts!
