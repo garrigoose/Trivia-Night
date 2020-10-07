@@ -78,7 +78,7 @@ Once you've submitted your project, make sure to visit your fellow cohort mates'
 
 It is a common practice on development teams to have a demo day every two weeks at the end of each development cycle (known as a sprint or iteration). On demo day, teams meet to share what they've accomplished during the current sprint.  
 
-To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from the squad members.  
+To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from squad members.  
 
 You must present your project at this time, even if you did not complete the requirements.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.  
 
