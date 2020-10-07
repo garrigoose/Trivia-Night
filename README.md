@@ -23,7 +23,7 @@ along the process and helping as you go. Show us what you've got!
 
 ### Project Proposal
 
-Create an issue in this repo using the **Project Proposal** issue template and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  An example of proposal can be found [here](project_proposal_example.md). 
+Create an issue in this repo using the **Project Proposal** issue template and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
