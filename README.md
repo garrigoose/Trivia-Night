@@ -102,6 +102,28 @@ Be prepared to answer questions like:
 - Project presentations will be begin at 1:00 pm ET on Wednesday 10/14.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
 - Office hours will be between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET and can be found in the course schedule.
 
+## Recommendations for Success
+
+- Create a [bronze, silver, and gold plan](https://github.com/ga-wdi-lessons/bronze-silver-gold).  Always under promise so you can overdeliver!  You can always add more features if time allows, but if you focus on non-MVP features before your MVP is complete and run out of time, your submission will not satisfy the project requirements.
+- **Break the project down into different components** (data, presentation,
+  views, style, DOM manipulation) and brainstorm each component individually.
+  Use a whiteboard or notebook to capture your thoughts!
+- **Use your Development Tools** (console.log, inspector, alert statements, etc)
+  to debug and solve problems
+- **Don't under estimate the value of planning!** Use tools like [Trello](https://trello.com/en-US) or [GitHub Projects](https://github.com/features/project-management/) and track your progress against milestones.  Don't think of the working game as the goal.  Think of the next milestone as the goal (e.g., getting my click handler to work, or getting the UI implemented).  This will feel far less overwhelming and each successfully completed milestone will provide you with the motivation to tackle the next task!
+- **Commit early, commit often.** Don’t be afraid to break something because you
+  can always go back in time to a previous version.
+- **Make it work, make it good, make it fast.** Don't get hung up on only saving
+  or writing code that is good code. Get it working first, even if it means
+  writing bad or ugly code. Once it's working, come back and refactor!
+- **Consult documentation resources** (MDN, etc.) to better
+  understand what you’ll be getting into.
+- **Don’t be afraid to write code that you know you will have to remove later.**
+  Create temporary elements (buttons, links, etc) that trigger events if real
+  data is not available. For example, if you’re trying to figure out how to
+  change some text when the game is over but you haven’t solved the win/lose
+  game logic, you can create a button to simulate that until then.
+
 ## Getting Help
 
 ### Office Hours Appointments
