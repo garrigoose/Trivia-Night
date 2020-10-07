@@ -76,7 +76,7 @@ Once you've submitted your project, make sure to visit your fellow cohort mates'
 
 ### Project Presentations
 
-It is a common practice on development teams to have a demo day at the end of each development cycle every two weeks. On demo day, teams meet to share what they've accomplished during the current cycle (known as a sprint or iteration).  
+It is a common practice on development teams to have a demo day every two weeks at the end of each development cycle (known as a sprint or iteration). On demo day, teams meet to share what they've accomplished during the current sprint.  
 
 To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of and share their experience of working on the project.  
 
