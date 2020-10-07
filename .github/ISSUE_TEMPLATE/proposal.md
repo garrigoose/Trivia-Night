@@ -1,7 +1,7 @@
 ---
 name: Project Proposal
 about: Project 1 proposal template
-title: YOUR NAME - GAME
+title: Your Name - Your Squad Lead
 labels: ''
 assignees: ''
 
