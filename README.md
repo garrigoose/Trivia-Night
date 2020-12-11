@@ -23,7 +23,7 @@ along the process and helping as you go. Show us what you've got!
 
 ### Project Proposal
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/sei-921/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/seir-1130/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
@@ -64,7 +64,7 @@ This is your project checklist.  Make sure to revisit it before you submit your 
 
 ### Project Submission
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](https://git.generalassemb.ly/sei-921/project1-gallery).
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](https://git.generalassemb.ly/seir-1130/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
@@ -99,7 +99,7 @@ Be prepared to answer questions like:
 - No daily attendance on Zoom required **except for Outcomes attendance**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily**!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
-- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/sei-921/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
+- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/sei-1130/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
 - Project presentations will be begin at 1:00 pm ET on Wednesday 10/14.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
 - Office hours will be between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET and can be found in the course schedule.
 
@@ -139,7 +139,7 @@ Check the course schedule for more information.
 
 ### Github Issues
 
-We strongly encourage you to file a [Github issue in this repository](https://git.generalassemb.ly/sei-921/project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
+We strongly encourage you to file a [Github issue in this repository](https://git.generalassemb.ly/seir-1130/project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
 for help directly. 
 
 Having to articulate the question into words is very helpful in understanding the problem. Sometimes, simply articulating the question gives you the answer. 
@@ -148,7 +148,7 @@ More importantly, submitting issues, creating bug reports, and posting questions
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-921/course-intro/blob/master/plagiarism.md).  
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-1130/course-intro/blob/master/plagiarism.md).  
 
 Projects give you an opportunity to apply the skills you're learning in a practical manner.  If you're struggling with something, that's okay!  In fact, that's why you're here -- if this was easy and you could do it already, you wouldn't be here. These assignments are similar to those you can expect when applying for a job,
 either in the form of a take-home coding challenge or an in-person technical
