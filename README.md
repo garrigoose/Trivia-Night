@@ -122,9 +122,9 @@ Be prepared to answer questions like:
 - No daily attendance on Zoom required **except for Outcomes attendance**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily**!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
-- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/staging-1130/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
-- Project presentations will be begin at 1:00 pm ET on Wednesday 10/14.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
-- Office hours will be between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET and can be found in the course schedule.
+- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/staging-1130/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME)  by Wednesday 12/23 at 9:00 am ET if you are presenting in person or by 9:00am Tuesday 12/29. (For early presenters: you can change your code through the 12/29 as well).
+- Project presentations will be begin at 10:00 am ET on Wednesday 12/23 if you are presenting live. Recorded presentation must be submitted in the project-gallery issue. If you do not show up for project presentations, and fail to submit a recording, your project will not be deemed as submitted and you will not be eligible for graduation.
+- Office hours will be between 10:00 to 12:00pm ET and 2:00 to 4:00pm ET and can be found in the course schedule.
 
 ## Recommendations for Success
 
@@ -152,7 +152,7 @@ Be prepared to answer questions like:
 
 ### Office Hours Appointments
 
-Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET
+Instructors will be hosting office hours between 10:00 to 12:00pm ET and 2:00 to 4:00pm ET
 each day of project week. The regular weekend office hours will also be available.
 Check the course schedule for more information.
 
