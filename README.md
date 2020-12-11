@@ -20,7 +20,7 @@ along the process and helping as you go. Show us what you've got!
 > complex than you might think!
 
 ### &#x1F535; Stretch Goals (Not Mandatory):
-Add an API to project!
+Add an API to your project!
 
 ### 📋 List of API's
 
