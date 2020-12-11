@@ -19,6 +19,16 @@ along the process and helping as you go. Show us what you've got!
 > instructor! Warning - many seemingly simple games end up being much more
 > complex than you might think!
 
+Great job with this assignment! The comments in your code are awesome and super useful. 
+
+I see you didn't change the list numbers to roman numerals, you could do that by adding css style in your js file: 
+
+//ordered list
+const numeralList = document.createElement('ol');
+
+// change list style to upper roman numeral
+numeralList.style.listStyleType = 'upper-roman';
+
 ## Requirements
 
 ### Project Proposal
