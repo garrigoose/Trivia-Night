@@ -19,15 +19,28 @@ along the process and helping as you go. Show us what you've got!
 > instructor! Warning - many seemingly simple games end up being much more
 > complex than you might think!
 
-Great job with this assignment! The comments in your code are awesome and super useful. 
+### &#x1F535; Stretch Goals (Not Mandatory):
+Add an API to project!
 
-I see you didn't change the list numbers to roman numerals, you could do that by adding css style in your js file: 
+### 📋 List of API's
 
-//ordered list
-const numeralList = document.createElement('ol');
+Below is a non-exhaustive list of some free API's you can use. There are _many_ API's out there, however, so if you find one not on this list that you'd like to use, feel free! Please note that some may require signing up for an API key (e.g. the Marvel API).
 
-// change list style to upper roman numeral
-numeralList.style.listStyleType = 'upper-roman';
+  1. Marvel: https://developer.marvel.com/
+  1. Star Wars: https://swapi.co/
+  1. Weather: https://openweathermap.org/api
+  1. News: https://newsapi.org/
+  1. Giphy: https://developers.giphy.com/
+  1. Pokemon: http://pokeapi.co/
+  1. Card Deck: https://deckofcardsapi.com/
+  1. Google Books: https://developers.google.com/books/
+  1. City of Chicago: https://data.cityofchicago.org/
+  1. Beer: https://www.brewerydb.com/developers
+  1. Chuck Norris: http://www.icndb.com/
+  1. Rick and Morty: https://rickandmortyapi.com/documentation/#rest
+  1. Open Trivia DB: https://opentdb.com/
+  
+Lastly, the following sites congregates a bunch of API's together, so you can take a look through their libraries and try to find an API that interests you! Note, however, that not all API's are free and many listed may require payment. We **highly suggest** to use a free API for your first project dealing with one. 
 
 ## Requirements
 
