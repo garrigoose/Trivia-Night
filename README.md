@@ -101,9 +101,7 @@ Once you've submitted your project, make sure to visit your fellow cohort mates'
 
 It is a common practice on development teams to have a demo day every two weeks at the end of each development cycle (known as a sprint or iteration). On demo day, teams meet to share what they've accomplished during the current sprint.  
 
-To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from squad members.  
-
-You must present your project at this time, even if you did not complete the requirements.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.  
+To prepare you for this, you will give a demo of each project to your class.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from class members.  
 
 During presentations, there should be **no working on your code** while others are presenting. This is your
 chance to ask others how they tackled their project.
@@ -115,6 +113,14 @@ Be prepared to answer questions like:
 - What would you do next?
 - How did you plan your project?
 - What did you learn?
+
+### Project Presentation Exceptions
+
+Since this project co-incides with a busy and tricky time of year for many people, we will (just this once!) be allowing recorded presentation on this assignment to be submitted after Christmas. See *Project Week Format* for full details.
+
+It's highly recommended that you do *not* use this extension to delay working on your project, unless outside circumstances force you to. Discussing your app with your team will sharpen your understanding of the methods you use and prepare you to discuss with interested employers.
+
+If we don't have enough volunteers to present on Wed the 23rd, we will all present our work within our squads. So make sure we have at least 8 students ready to present on Wed.!
 
 
 ## Project Week Format
