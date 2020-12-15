@@ -47,7 +47,9 @@ along the process and helping as you go. Show us what you've got!
 
  Warning - many seemingly simple games end up being much more complex than you might think!
  
- If you would like to make an App that performs an API/AJAX call instead of having a game function, you may send in a proposal with your idea to your squad leaders. All of the main project requirements (HTML, CSS, & JS files, daily commits, clean, working code) will still be applied. You may use any free API that you would like. Here is a good list of [Free Apis](https://github.com/toddmotto/public-apis)
+ ### &#x1F535; Stretch Goals (Not Mandatory):
+Add an API to your project! If you would like to make an App that performs an API/AJAX call instead of having a game function, you may send in a proposal with your idea to your squad leaders. All of the main project requirements (HTML, CSS, & JS files, daily commits, clean, working code) will still be applied. You may use any free API that you would like. Here is a good list of [Free Apis](https://github.com/toddmotto/public-apis)
+ 
 
 ## Requirements
 
