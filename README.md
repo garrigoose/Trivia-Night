@@ -1,7 +1,33 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #1: Build a Game with HTML, CSS and JavaScript
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
+
+## SEIR 1130, December 16, 2020
+
+## Attendance
+There are no full day classes during project weeks, but we expect you to be working on your project from at least 9 AM - 5 PM EST during class days and be available during that time for TA hours or any meetings with instructors as needed.  
+
+We also will be holding Stand Up meetings with our Squads during project week to check attendance and to discuss our daily goals, our progress, and any issues we are facing. Your squad leaders will let you know when these will be!
+
+_Failure to make an attendance check will result in an unexcused absence for that day_.
+
+## Project Details
+
+### &#x1F534; Mandatory To Pass:
+#### MVP - Minimum Viable Product
+
+#### Your application must meet these requirements:
+
+  1. Built with HTML, CSS, JavaScript and jQuery
+  2. Hosted on github pages<br>
+  3. Commits to github every day<br>
+  4. A `README.md` file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
+
+
+
+# Project #1: Build a Game with HTML, CSS and JavaScript
 
 For your first project, you'll be creating a familiar game using HTML, CSS and
-JS! Please choose one of the following options:
+JS! You can create your own game or application, or you can select from one of the following:
+
 
 - **[Flash Cards](project_choices.md#flash-cards)**
 - **[Trivia (Self-scoring)](project_choices.md#self-scoring-trivia)**
@@ -9,44 +35,23 @@ JS! Please choose one of the following options:
 - **[Tower of Hanoi](project_choices.md#tower-of-hanoi)**
 - **[Simon](project_choices.md#simon)**
 
+Projects not from this list must be approved by your Squad Leader before you begin
+
 This is an opportunity to **be creative**, and work through some **tough
 programming challenges**.
 
 **You will be working individually for this project**, but we'll be guiding you
 along the process and helping as you go. Show us what you've got!
 
-> If you want to choose a different game for Project #1, please consult with an
-> instructor! Warning - many seemingly simple games end up being much more
-> complex than you might think!
-
-### &#x1F535; Stretch Goals (Not Mandatory):
-Add an API to your project!
-
-### 📋 List of API's
-
-Below is a non-exhaustive list of some free API's you can use. There are _many_ API's out there, however, so if you find one not on this list that you'd like to use, feel free! Please note that some may require signing up for an API key (e.g. the Marvel API).
-
-  1. Marvel: https://developer.marvel.com/
-  1. Star Wars: https://swapi.co/
-  1. Weather: https://openweathermap.org/api
-  1. News: https://newsapi.org/
-  1. Giphy: https://developers.giphy.com/
-  1. Pokemon: http://pokeapi.co/
-  1. Card Deck: https://deckofcardsapi.com/
-  1. Google Books: https://developers.google.com/books/
-  1. City of Chicago: https://data.cityofchicago.org/
-  1. Beer: https://www.brewerydb.com/developers
-  1. Chuck Norris: http://www.icndb.com/
-  1. Rick and Morty: https://rickandmortyapi.com/documentation/#rest
-  1. Open Trivia DB: https://opentdb.com/
-  
-Lastly, the following sites congregates a bunch of API's together, so you can take a look through their libraries and try to find an API that interests you! Note, however, that not all API's are free and many listed may require payment. We **highly suggest** to use a free API for your first project dealing with one. 
+ Warning - many seemingly simple games end up being much more complex than you might think!
+ 
+ If you would like to make an App that performs an API/AJAX call instead of having a game function, you may send in a proposal with your idea to your squad leaders. All of the main project requirements (HTML, CSS, & JS files, daily commits, clean, working code) will still be applied. You may use any free API that you would like.
 
 ## Requirements
 
 ### Project Proposal
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/staging-1130/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/sei-921/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
@@ -87,7 +92,7 @@ This is your project checklist.  Make sure to revisit it before you submit your 
 
 ### Project Submission
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](https://git.generalassemb.ly/staging-1130/project1-gallery).
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](https://git.generalassemb.ly/sei-921/project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
@@ -101,7 +106,9 @@ Once you've submitted your project, make sure to visit your fellow cohort mates'
 
 It is a common practice on development teams to have a demo day every two weeks at the end of each development cycle (known as a sprint or iteration). On demo day, teams meet to share what they've accomplished during the current sprint.  
 
-To prepare you for this, you will give a demo of each project to your class.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from class members.  
+To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from squad members.  
+
+You must present your project at this time, even if you did not complete the requirements.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.  
 
 During presentations, there should be **no working on your code** while others are presenting. This is your
 chance to ask others how they tackled their project.
@@ -114,33 +121,36 @@ Be prepared to answer questions like:
 - How did you plan your project?
 - What did you learn?
 
-### Project Presentation Exceptions
-
-Since this project co-incides with a busy and tricky time of year for many people, we will (just this once!) be allowing recorded presentation on this assignment to be submitted after Christmas. See *Project Week Format* for full details.
-
-It's highly recommended that you do *not* use this extension to delay working on your project, unless outside circumstances force you to. Discussing your app with your team will sharpen your understanding of the methods you use and prepare you to discuss with interested employers.
-
-If we don't have enough volunteers to present on Wed the 23rd, we will all present our work within our squads. So make sure we have at least 8 students ready to present on Wed.!
-
 
 ## Project Week Format
 
 - No daily attendance on Zoom required **except for Outcomes attendance**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily**!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
-- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/staging-1130/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME)  by Wednesday 12/23 at 9:00 am ET if you are presenting in person or by 9:00am Tuesday 12/29. (For early presenters: you can change your code through the 12/29 as well).
-- Project presentations will be begin at 10:00 am ET on Wednesday 12/23 if you are presenting live. Recorded presentation must be submitted in the project-gallery issue. If you do not show up for project presentations, and fail to submit a recording, your project will not be deemed as submitted and you will not be eligible for graduation.
-- Office hours will be between 10:00 to 12:00pm ET and 2:00 to 4:00pm ET and can be found in the course schedule.
+- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/sei-921/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
+- Project presentations will be begin at 10:00 am ET on Wednesday 12/23.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
+
+- If you are not able to complete your project by this time, you may request an extension to complete it over the break. If you are allowed this extension, you will be required to submit in a video recording of yourself presenting the project, as well as a short written page that answers the questions that we will be asking you.
 
 ## Recommendations for Success
 
-- Create a [bronze, silver, and gold plan](https://github.com/ga-wdi-lessons/bronze-silver-gold).  This is your first project and you don't have a good way to estimate how long individual tasks will take, so it's better to set the bar low.  There's no problem with under-promising and over-delivering!  You can always add more features if time allows. However, if you focus on non-MVP features before your MVP is complete and run out of time, your submission will not satisfy the project requirements.
+"True nobility comes not from being superior to your fellow man, but being superior to your former self" - Ernest Hemingway
+
+- For those of you who entered GA SEIR as total beginners, think of this as a jumping off point for you to build and complete, and look back on as you continue your growth as a developer. Do not compare yourself to anyone in the class! How complicated or simple anyone else's project is should have no effect on your end product. What matters more is how your projects grow and evolve over the course, not about how yours compares to the person sitting next to you
+
+-  This is your first project and you don't have a good way to estimate how long individual tasks will take, there's no problem with under-promising and over-delivering!  You can always add more features if time allows. However, if you focus on non-MVP features before your MVP is complete and run out of time, your submission will not satisfy the project requirements.
+
 - **Break the project down into different components** (data, presentation,
   views, style, DOM manipulation) and brainstorm each component individually.
-  Use a whiteboard or notebook to capture your thoughts!
+  Use a whiteboard or notebook to capture your thoughts! Pseudocoding is going to be a huge part of your planning and time management.
+  
 - **Use your Development Tools** (console.log, inspector, alert statements, etc)
-  to debug and solve problems
+  to debug and solve problems. Remember though, when you submit in your completed project, you will need to delete or comment out these console logs when you submit in the finished project.
+  
 - **Don't under estimate the value of planning!** Use tools like [Trello](https://trello.com/en-US) or [GitHub Projects](https://github.com/features/project-management/) and track your progress against milestones.  Don't think of the working game as the goal.  Think of the next milestone as the goal (e.g., getting my click handler to work, or getting the UI implemented).  This will feel far less overwhelming and each successfully completed milestone will provide you with the motivation to tackle the next task!
+
+- **Wireframe** Make a drawing of what your app will look like in all of its stages (what does it look like as soon as you log on to the site? What does it look like once data is retrieved?). You may want to draw these out by hand first, but familiarize yourself with tools such as Abode XD or https://wireframe.cc/ . Not only will these technologies be helpful for you in your development and building of the project, they are real world tools that employers will want to see you have some experience with!
+
 - **Commit early, commit often.** Don’t be afraid to break something because you
   can always go back in time to a previous version.
 - **Make it work, make it good, make it fast.** Don't get hung up on only saving
@@ -153,13 +163,47 @@ If we don't have enough volunteers to present on Wed the 23rd, we will all prese
   data is not available. For example, if you’re trying to figure out how to
   change some text when the game is over but you haven’t solved the win/lose
   game logic, you can create a button to simulate that until then.
+  
+## Timeframes
+
+Timeframes are key in the development cycle. You have limited time to code and so much to accomplish!  Look at all of your planned files and components, and all of the areas of development you are planning and give an estimate of how long each one will take to complete. It's always best to pad the time to account for the unknown, so be sure to add an additional hour or two to play it safe. As you progress, you can update the "Time Invested" column to keep track of your hours, but that number should turn into "Actual Time" by the presentation day. Also, put a winter-themed gif at the top of your readme before you pitch to show you read the instructions thoroughly.
+
+
+| Task | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Setting up site framework | H | X hrs| X hrs | X hrs |
+| Getting API to log and render | H |  X hrs| X hrs | X hrs |
+| Creating game logic | H | X hrs| X hrs |  X hrs  |
+| Getting search bars functioning | H | X hrs|  X hrs | X hrs |
+| Styling| M | X hrs|   X hrs|  X hrs |
+| Responsive Styling | H | X hrs| X hrs |  X hrs  |
+| Total | H | X  hrs |X  hrs  |  X hrs|
+
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|Dec 17| Project Pitch / Wireframes | incomplete
+|Dec 18| some task | incomplete
+|Dec 19 - 20 | weekend goals | incomplete
+|Dec 22| more tasks  | incomplete
+|Dec 22| finalizing | incomplete
+|Dec 23| Presentations |
+  
+## You must include a realistic timeframe and daily project goal in your project proposal to your squad leader!
+
 
 ## Getting Help
 
 ### Office Hours Appointments
 
-Instructors will be hosting office hours between 10:00 to 12:00pm ET and 2:00 to 4:00pm ET
-each day of project week. The regular weekend office hours will also be available.
+Instructors will be hosting office hours during their regular times each day of project week. Even if the class is not meeting regularly, at least one instructor will be available on the main Zoom chat at all times.
+
+The regular weekend office hours will also be available.
 Check the course schedule for more information.
 
 > The purpose of this project is for you to show us and future employers what
@@ -168,7 +212,7 @@ Check the course schedule for more information.
 
 ### Github Issues
 
-We strongly encourage you to file a [Github issue in this repository](https://git.generalassemb.ly/staging-1130/project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
+We strongly encourage you to file a [Github issue in this repository](https://git.generalassemb.ly/sei-921/project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
 for help directly. 
 
 Having to articulate the question into words is very helpful in understanding the problem. Sometimes, simply articulating the question gives you the answer. 
@@ -177,9 +221,11 @@ More importantly, submitting issues, creating bug reports, and posting questions
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-1130/course-intro/blob/master/plagiarism.md).  
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-921/course-intro/blob/master/plagiarism.md).  
 
 Projects give you an opportunity to apply the skills you're learning in a practical manner.  If you're struggling with something, that's okay!  In fact, that's why you're here -- if this was easy and you could do it already, you wouldn't be here. These assignments are similar to those you can expect when applying for a job,
 either in the form of a take-home coding challenge or an in-person technical
 interview. So lean in, get comfortable with being uncomfortable, and challenge
 yourself to complete this project on your own.
+
+
