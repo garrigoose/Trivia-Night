@@ -138,7 +138,7 @@ Be prepared to answer questions like:
 
 ## Recommendations for Success
 
-*"True nobility comes not from being superior to your fellow man, but being superior to your former self" - Ernest Hemingway
+*"True nobility comes not from being superior to your fellow man, but being superior to your former self" - Ernest Hemingway*
 
 - For those of you who entered GA SEIR as total beginners, think of this as a jumping off point for you to build and complete something, and look back on as you continue your growth as a developer. Do not compare yourself to anyone in the class! How complicated or simple anyone else's project is should have no effect on your end product. What matters more is how your projects grow and evolve over the course, not about how yours compares to the person sitting next to you
 
