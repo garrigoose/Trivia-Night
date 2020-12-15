@@ -130,7 +130,7 @@ Be prepared to answer questions like:
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily**!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
 - Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/sei-921/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
-- Project presentations will be begin at 10:00 am ET on Wednesday 12/23.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
+- Project presentations will begin at 10:00 am ET on Wednesday 12/23.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
 
 - If you are not able to complete your project by this time, you may request an extension to complete it over the break. If you are allowed this extension, you will be required to submit in a video recording of yourself presenting the project, as well as a short written page that answers the questions that we will be asking you.
 
