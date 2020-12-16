@@ -55,7 +55,7 @@ Add an API to your project! If you would like to make an App that performs an AP
 
 ### Project Proposal
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/sei-1130/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
+Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/SEIR-1130/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
