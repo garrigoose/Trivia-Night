@@ -2,14 +2,13 @@
 
 # Project 1 - Building up your own game or application
 
-## SEIR 1130, December 16, 2020
+## FLEX 323, May 1, 2021
 
 ## Attendance
-There are no full day classes during project weeks, but we expect you to be working on your project from at least 9 AM - 5 PM EST during class days and be available during that time for TA hours or any meetings with instructors as needed.  
+There are no full day classes during project weeks, but we expect you to be working on your at least the same as the same amount of time during class days and be available during that time for TA hours or any meetings with instructors as needed during project week office hours.
 
 We also will be holding Stand Up meetings with our Squads during project week to check attendance and to discuss our daily goals, our progress, and any issues we are facing. Your squad leaders will let you know when these will be!
 
-_Failure to make an attendance check will result in an unexcused absence for that day_.
 
 ## Project Details
 
@@ -20,7 +19,7 @@ _Failure to make an attendance check will result in an unexcused absence for tha
 
   1. Built with HTML, CSS, JavaScript and jQuery
   2. Hosted on github pages<br>
-  3. Commits to github every day<br>
+  3. Commits to github every other day<br>
   4. A `README.md` file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
 
 
@@ -48,14 +47,14 @@ along the process and helping as you go. Show us what you've got!
  Warning - many seemingly simple games end up being much more complex than you might think!
  
  ### &#x1F535; Stretch Goals (Not Mandatory):
-Add an API to your project! If you would like to make an App that performs an API/AJAX call instead of having a game function, you may send in a proposal with your idea to your squad leaders. All of the main project requirements (HTML, CSS, & JS files, daily commits, clean, working code) will still be applied. You may use any free API that you would like. Here is a good list of [Free Apis](https://github.com/toddmotto/public-apis)
+Add an API to your project! If you would like to make an App that performs an API call instead of having a game function, you may send in a proposal with your idea to your squad leaders. All of the main project requirements (HTML, CSS, & JS files, daily commits, clean, working code) will still be applied. You may use any free API that you would like. Here is a good list of [Free Apis](https://github.com/toddmotto/public-apis)
  
 
 ## Requirements
 
 ### Project Proposal
 
-Create an issue in this repo using the [**Project Proposal** issue template](https://git.generalassemb.ly/SEIR-1130/project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
+Create an issue in this repo using the [**Project Proposal** issue template](../../../project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
@@ -75,9 +74,7 @@ Your app must:
 This is your project checklist.  Make sure to revisit it before you submit your project! Your submission must include **all** of the following:
 
 - A game, built by you, hosted on Github Pages
-- Your HTML/CSS should pass the [HTML5 Validator](https://html5.validator.nu)
-  and [CSS Validator](https://jigsaw.w3.org/css-validator/)
-- Your JavaScript should be cleanly formatted (use Prettier!) and not contain any console.logs (you can search for them with command + F [or ctrl + F on Windows/Ubuntu] and then remove them or comment them out).
+- Your JavaScript should be cleanly formatted (use Prettier!) and not contain excessive console.logs (you can search for them with command + F [or ctrl + F on Windows/Ubuntu] and then remove them or comment them out).
 - A git repository hosted on Github with frequent commits dating back to the
   very beginning of the project (**at least one commit is required per day of the project**).
 - A `README.md` file that includes the following sections:
@@ -96,7 +93,7 @@ This is your project checklist.  Make sure to revisit it before you submit your 
 
 ### Project Submission
 
-**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](https://git.generalassemb.ly/SEIR-1130/project1-gallery).
+**_DO NOT FORK THIS REPOSITORY!_** Create a **new** repository on your PERSONAL GitHub account (not GitHub Enterprise). Then, submit your project as an issue to [the project 1 gallery repository](../../../project1-gallery).
 
 You must turn in something before presentations begin. However, you're welcome
 to continue working on it over the course of SEIR and beyond!
@@ -110,7 +107,7 @@ Once you've submitted your project, make sure to visit your fellow cohort mates'
 
 It is a common practice on development teams to have a demo day every two weeks at the end of each development cycle (known as a sprint or iteration). On demo day, teams meet to share what they've accomplished during the current sprint.  
 
-To prepare you for this, for project 1, you will give a demo of your project to your squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from squad members.  
+To prepare you for this, for project 1, you will give a demo of your project to your mega squad.  Each person will be given approximately 5-10 minutes to demonstrate their project, talk about some part of their code that they are particularly proud of, share their experiences working on the project, and answer questions from squad members.  
 
 You must present your project at this time, even if you did not complete the requirements.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.  
 
@@ -131,8 +128,8 @@ Be prepared to answer questions like:
 - No daily attendance on Zoom required **except for Outcomes attendance**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily**!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
-- Projects must be submitted to the [gallery (via an issue)](https://git.generalassemb.ly/sei-1130/project1-gallery/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Wednesday 10/14 at 12:00 pm ET.
-- Project presentations will begin at 10:00 am ET on Wednesday 12/23.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
+- Projects must be submitted to the [gallery (via an issue)](../../../project-1/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Tuesday 5/4 at 6:00 pm CST.
+- Project presentations will begin at 9:00 am CST on Tuesday 5/11.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
 
 - If you are not able to complete your project by this time, you may request an extension to complete it over the break. If you are allowed this extension, you will be required to submit in a video recording of yourself presenting the project, as well as a short written page that answers the questions that we will be asking you.
 
@@ -216,7 +213,7 @@ Check the course schedule for more information.
 
 ### Github Issues
 
-We strongly encourage you to file a [Github issue in this repository](https://git.generalassemb.ly/sei-1130/project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
+We strongly encourage you to file a [Github issue in this repository](../../../project-1/issues/new?assignees=&labels=&template=ISSUE_TEMPLATE.md&title=YOUR+NAME+-+BUG+DESCRIPTION) prior to asking the instructors
 for help directly. 
 
 Having to articulate the question into words is very helpful in understanding the problem. Sometimes, simply articulating the question gives you the answer. 
@@ -225,7 +222,7 @@ More importantly, submitting issues, creating bug reports, and posting questions
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-1130/course-intro/blob/master/plagiarism.md).  
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/flex-323/course-intro/blob/master/plagiarism.md).  
 
 Projects give you an opportunity to apply the skills you're learning in a practical manner.  If you're struggling with something, that's okay!  In fact, that's why you're here -- if this was easy and you could do it already, you wouldn't be here. These assignments are similar to those you can expect when applying for a job,
 either in the form of a take-home coding challenge or an in-person technical
