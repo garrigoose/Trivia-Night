@@ -17,7 +17,7 @@ We also will be holding Stand Up meetings with our Squads during project week to
 
 #### Your application must meet these requirements:
 
-  1. Built with HTML, CSS, JavaScript and jQuery
+  1. Built with HTML, CSS, JavaScript
   2. Hosted on github pages<br>
   3. Commits to github every other day<br>
   4. A `README.md` file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc.
