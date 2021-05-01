@@ -128,7 +128,7 @@ Be prepared to answer questions like:
 - **Outcomes attendance is mandatory**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily** (on the days we'd normally have class)!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
-- Projects must be submitted to the [gallery (via an issue)](../../../project-1/issues/new?assignees=&labels=&template=project-submission.md&title=YOUR+FULL+NAME) by Saturday 5/15 at 8:00 am CST.
+- Projects must be submitted to the [gallery (via an issue)](../../../project1-gallery/issues) by Saturday 5/15 at 8:00 am CST.
 - Project presentations will begin at 9:00 am CST on Saturday, 5/15.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
 
 - If you are not able to complete your project by this time, you may request an extension to complete it over the break. If you are allowed this extension, you will be required to submit in a video recording of yourself presenting the project, as well as a short written page that answers the questions that we will be asking you.
