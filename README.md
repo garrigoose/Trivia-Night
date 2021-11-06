@@ -128,8 +128,8 @@ Be prepared to answer questions like:
 - **Outcomes attendance is mandatory**. If you’re absent for Outcomes that will count as a full day absence, so please show up!
 - You **do not** need to submit any exit tickets during project week (ignore the automated Slack reminder)
 - You are required to communicate with your squad lead **daily** (on the days we'd normally have class)!  This may be in the form of a [daily stand up](https://geekbot.com/blog/daily-standup-meeting/?k_id=dsa-910872033553&adgroup_id=96910465570&campaign_name_ad=10071775578&gclid=CjwKCAjwzvX7BRAeEiwAsXExo25ZchZ9JOgDt-esFT0qW6Dj36sgBtYkCHLhf-NPH4W7Cw1rKiWhkxoCXVUQAvD_BwE) or Slack check in.  Your squad lead will provide more details.
-- Projects must be submitted to the [gallery (via an issue)](../../../project1-gallery/issues) by Saturday 5/15 at 8:00 am CST.
-- Project presentations will begin at 9:00 am CST on Saturday, 5/15.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
+- Projects must be submitted to the [gallery (via an issue)](../../../project1-gallery/issues) by Saturday 11/20 at 10:00 am EST.
+- Project presentations will begin at 10:00 am EST on Saturday, 10/20.  You must present your project at this time.  If you do not show up for project presentations, your project will not be deemed as submitted and you will not be eligible for graduation.
 
 - If you are not able to complete your project by this time, you may request an extension to complete it over the break. If you are allowed this extension, you will be required to submit in a video recording of yourself presenting the project, as well as a short written page that answers the questions that we will be asking you.
 
@@ -222,7 +222,7 @@ More importantly, submitting issues, creating bug reports, and posting questions
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/flex-323/course-intro/blob/master/plagiarism.md).  
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/Flex-929/course-intro/blob/master/plagiarism.md).  
 
 Projects give you an opportunity to apply the skills you're learning in a practical manner.  If you're struggling with something, that's okay!  In fact, that's why you're here -- if this was easy and you could do it already, you wouldn't be here. These assignments are similar to those you can expect when applying for a job,
 either in the form of a take-home coding challenge or an in-person technical
