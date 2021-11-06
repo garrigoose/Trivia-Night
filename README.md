@@ -222,7 +222,7 @@ More importantly, submitting issues, creating bug reports, and posting questions
 
 ## Plagiarism
 
-Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/Flex-929/course-intro/blob/master/plagiarism.md).  
+Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/Flex-928/course-intro/#plagiarism).  
 
 Projects give you an opportunity to apply the skills you're learning in a practical manner.  If you're struggling with something, that's okay!  In fact, that's why you're here -- if this was easy and you could do it already, you wouldn't be here. These assignments are similar to those you can expect when applying for a job,
 either in the form of a take-home coding challenge or an in-person technical
