@@ -54,7 +54,7 @@ Add an API to your project! If you would like to make an App that performs an AP
 
 ### Project Proposal
 
-Create an issue in this repo using the [**Project Proposal** issue template](../../../project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline, Monday 5/3 7pm CST.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
+Create an issue in this repo using the [**Project Proposal** issue template](../../../project-1/issues/new?assignees=&labels=&template=proposal.md&title=Your+Name+-+Your+Squad+Lead) and submit it before the proposal submission deadline, Monday 11/8 *pm EST.  Make sure you complete **all of the prompts**.  Use the example proposal found [here](project_proposal_example.md) as a guide. 
 
 Your proposal will be reviewed by your squad lead who will communicate feedback with you directly.
 
@@ -188,12 +188,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Dec 17| Project Pitch / Wireframes | incomplete
-|Dec 18| some task | incomplete
-|Dec 19 - 20 | weekend goals | incomplete
-|Dec 22| more tasks  | incomplete
-|Dec 22| finalizing | incomplete
-|Dec 23| Presentations |
+|Nov 8| Project Pitch / Wireframes | incomplete
+|Nov 9| some task | incomplete
+|Nov 10 - 11 | weekend goals | incomplete
+|Nov 12 - 15| more tasks  | incomplete
+|Nov 16 - 19| finalizing | incomplete
+|Nov 20| Presentations |
   
 ## You must include a realistic timeframe and daily project goal in your project proposal to your squad leader!
 
