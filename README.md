@@ -2,7 +2,7 @@
 
 # Project 1 - Building up your own game or application
 
-## FLEX 323, May 1, 2021
+## FLEX 928, October 6, 2021
 
 ## Attendance
 There are no full day classes during project weeks, but we expect you to be working on your at least the same as the same amount of time during class days and be available during that time for TA hours or any meetings with instructors as needed during project week office hours.
