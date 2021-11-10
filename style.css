@@ -19,3 +19,11 @@ body {
   align-items: center;
   /* row-gap: 100px; */
 }
+
+#categories-screen {
+  height: 800px;
+  width: 800px;
+  border: solid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
