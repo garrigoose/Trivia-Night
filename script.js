@@ -88,7 +88,27 @@ $("#next-question").on("click", () => {
       randomAns(answers);
       $("#question-box").on("click", (f) => {
         correctAnswer = data.results[0].correct_answer;
-        console.log(correctAnswer);
+        if (
+          f.originalEvent.target.value === correctAnswer &&
+          level === "easy"
+        ) {
+          player.score++;
+          $(".score").text(`Score: ${player.score}`);
+        } else if (
+          f.originalEvent.target.value === correctAnswer &&
+          level === "medium"
+        ) {
+          player.score += 2;
+          $(".score").text(`Score: ${player.score}`);
+        } else if (
+          f.originalEvent.target.value === correctAnswer &&
+          level === "hard"
+        ) {
+          player.score += 3;
+          $(".score").text(`Score: ${player.score}`);
+        } else {
+          return;
+        }
       });
     });
   round++;
