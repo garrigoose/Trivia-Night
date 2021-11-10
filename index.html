@@ -10,9 +10,34 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Convivial Dispute</title>
   </head>
   <body>
+    <div id="start-screen">
+      <div id="welcome">Welcome to Convivial Dispute</div>
+      <form action="">
+        <label for="num-of-players">Players: </label>
+        <select id="num-of-players" name="players">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <input type="text" placeholder="Team Name" />
+        <input type="button" value="☑️" />
+      </form>
+      <button id="start">START</button>
+    </div>
+    <div id="category-screen"></div>
+    <div id="game-screen"></div>
+    <div id="final-screen"></div>
     <script src="script.js"></script>
   </body>
 </html>

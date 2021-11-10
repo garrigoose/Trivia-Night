@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-screen {
+  height: 800px;
+  width: 800px;
+  border: solid;
+  font-family: "Acme", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
