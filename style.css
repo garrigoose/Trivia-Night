@@ -1,5 +1,7 @@
 body {
   display: flex;
+  font-family: "Acme", sans-serif;
+  font-family: "Roboto Mono", monospace;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -9,12 +11,11 @@ body {
   height: 800px;
   width: 800px;
   border: solid;
-  font-family: "Acme", sans-serif;
-  font-family: "Roboto Mono", monospace;
   /* display: none; */
   display: flex;
   flex-direction: column;
 
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  /* row-gap: 100px; */
 }
