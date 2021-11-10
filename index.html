@@ -20,20 +20,20 @@
   </head>
   <body>
     <div id="start-screen">
-      <div id="welcome">Welcome to Convivial Dispute</div>
+      <h1 id="welcome">Welcome to Convivial Dispute</h1>
       <form action="">
-        <label for="num-of-players">Players: </label>
+        <!-- <label for="num-of-players">Players: </label>
         <select id="num-of-players" name="players">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
           <option value="4">4</option>
           <option value="5">5</option>
-        </select>
+        </select> -->
         <input type="text" placeholder="Team Name" />
-        <input type="button" value="☑️" />
+        <input class="buttons" type="button" value="✔️" />
       </form>
-      <button id="start">START</button>
+      <button class="buttons" id="start">START</button>
     </div>
     <div id="categories-screen">
       <button class="categories">HISTORY</button
@@ -43,8 +43,35 @@
       ><button class="categories">COMPUTERS</button
       ><button class="categories">BOOKS</button>
     </div>
-    <div id="game-screen"></div>
-    <div id="final-screen"></div>
+    <div id="game-screen">
+      <div id="status-bar">
+        <span id="level">Level: Easy</span
+        ><span id="category-span">Category: </span
+        ><span id="round">Round: 0/30</span>
+      </div>
+      <div id="question-box">
+        <span id="question"> This is a question? </span>
+        <ol></ol>
+      </div>
+      <button class="buttons" id="next-question">next</button>
+      <div id="game-box">
+        <!-- <form id="team-1-answer" action="">
+          <label for="team-1-answer">Team 1 Answer:</label>
+          <select name="selector" id="selector">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+            <option value="D">D</option>
+          </select>
+        </form> -->
+        <p>Score: 0</p>
+      </div>
+    </div>
+    <div id="final-screen">
+      <h1>Final Score</h1>
+      <h3>0 Points</h3>
+      <button class="buttons" id="play-again">Play Again</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
