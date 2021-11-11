@@ -53,6 +53,7 @@ input {
   border: transparent;
   box-shadow: inset 8px 8px 8px lightgray, inset -8px -8px white;
   border-radius: 25px;
+  padding: 0 20px;
 }
 
 #question-box {

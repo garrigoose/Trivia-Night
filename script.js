@@ -19,15 +19,12 @@ let round = 0;
 let level = "";
 let answers = [];
 let correctAnswer = "";
-const categories = {
-  1: ["History", 23],
-  2: ["Music", 12],
-  3: ["Film", 11],
-  4: ["Sports", 21],
-  5: ["Books", 10],
-  6: ["Computers", 18],
-};
 // functions
+
+const regexReplacer = function (str) {
+  let string = str.replace(/\&quot\;/g, "'");
+  return string.replace(/\&\#039\;/g, "'");
+};
 
 const randomAns = function (array) {
   // fischer-yates algorithm
@@ -67,8 +64,10 @@ const pageUpdate = function () {
 };
 
 const questionData = function (data) {
+  let formattedQuestion = regexReplacer(data.results[0].question);
+  console.log(data.results[0].question);
   $("#category-span").text(`Category: ${data.results[0].category}`);
-  $("#question").text(data.results[0].question);
+  $("#question").text(formattedQuestion);
   answers = data.results[0].incorrect_answers;
   answers.push(data.results[0].correct_answer);
   correctAnswer = data.results[0].correct_answer;
@@ -130,14 +129,12 @@ $(".load").on("click", () => {
 
 $("#play-again").on("click", () => {
   player.score = 0;
-  $(".score").text(`Score: ${player.score}`);
   round = 0;
-  $("#round").text(`Round: ${round}/10`);
   level = "";
+  $(".score").text(`Score: ${player.score}`);
+  $("#round").text(`Round: ${round}/10`);
   $("#level").text(`Level: `);
   $("#category-span").text(`Category: `);
   finalscreen.toggle();
   gamescreen.toggle();
 });
-
-console.log(Object.keys(categories));
