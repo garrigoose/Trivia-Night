@@ -1,31 +1,32 @@
+html {
+  font-size: 62.5%;
+}
+
 body {
   display: flex;
   font-family: "Acme", sans-serif;
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#categories-screen {
-  height: 800px;
-  width: 800px;
-  border: solid;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 #game-screen,
 #final-screen,
 #start-screen {
-  height: 800px;
-  width: 800px;
-  border: solid;
+  height: 550px;
+  width: 550px;
+  padding-bottom: 5%;
+  background-color: floralwhite;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px lightgray;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  margin: 20px auto;
 }
 
 #status-bar {
@@ -49,18 +50,31 @@ input {
   font-family: "Roboto Mono", monospace;
   font-size: 20px;
   border: transparent;
+  box-shadow: inset 8px 8px 8px lightgray, inset -8px -8px white;
+  border-radius: 25px;
 }
 
 #question-box {
   display: flex;
+  height: 40%;
+  width: 75%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 ol {
-  list-style-type: upper-alpha;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
+
+#name-enter {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+}
+
 .answer-buttons {
   font-family: "Acme", sans-serif;
   font-family: "Roboto Mono", monospace;

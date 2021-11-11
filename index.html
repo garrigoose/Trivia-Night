@@ -21,17 +21,17 @@
   <body>
     <div id="start-screen">
       <h1 id="welcome">Welcome to Convivial Dispute</h1>
-      <form action="">
+      <form action="" id="name-enter">
         <!-- <label for="num-of-players">Players: </label>
-        <select id="num-of-players" name="players">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-        </select> -->
-        <input type="text" placeholder="Team Name" />
-        <input class="buttons" type="button" value="✔️" />
+            <select id="num-of-players" name="players">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select> -->
+        <input type="text" placeholder="  Team Name" />
+        <button class="buttons">✔️</button>
       </form>
       <button class="buttons" id="start">START</button>
     </div>
@@ -45,8 +45,7 @@
     </div>
     <div id="game-screen">
       <div id="status-bar">
-        <span id="level">Level: Easy</span
-        ><span id="category-span">Category: </span
+        <span id="level">Level: </span><span id="category-span">Category: </span
         ><span id="round">Round: 0/30</span>
       </div>
       <div id="question-box">
@@ -69,7 +68,7 @@
     </div>
     <div id="final-screen">
       <h1>Final Score</h1>
-      <h3>0 Points</h3>
+      <h3 id="final-score">0 Points</h3>
       <button class="buttons" id="play-again">Play Again</button>
     </div>
     <script src="script.js"></script>

@@ -6,18 +6,10 @@ let gamescreen = $("#game-screen");
 let finalscreen = $("#final-screen");
 
 // ///// TEMPORARY ///// //
-startscreen.css("display", "none");
+// startscreen.css("display", "none");
 categoriesscreen.css("display", "none");
-// gamescreen.css("display", "none");
+gamescreen.css("display", "none");
 finalscreen.css("display", "none");
-
-// create class for player: team name and score counter
-class team {
-  constructor(name) {
-    this.name = name;
-    this.score = 0;
-  }
-}
 
 let player = {
   name: "",
@@ -41,6 +33,7 @@ const randomCat = function () {
   return categories[rndInt][1];
 };
 
+// fischer-yates algorithm
 const randomAns = function (array) {
   $("ol").text("");
   for (let i = array.length - 1; i > 0; i--) {
@@ -71,7 +64,69 @@ const whatRound = function (round) {
   }
 };
 
-// click events
+// events
+
+$("#name-enter").submit((e) => {
+  e.preventDefault();
+  player.name = e.originalEvent.submitter.previousElementSibling.value;
+  gamescreen.prepend(`<h3>${player.name}</h3>`);
+});
+
+$("#start").on("click", () => {
+  startscreen.toggle();
+  gamescreen.toggle();
+  fetch(
+    `https://opentdb.com/api.php?amount=1&category=${randomCat()}&difficulty=${level}&type=multiple`
+  )
+    .then((res) => {
+      return res.json();
+    })
+    .then((data) => {
+      //  console.log(data);
+      $("#category-span").text(`Category: ${data.results[0].category}`);
+      $("#question").text(data.results[0].question);
+      answers = data.results[0].incorrect_answers;
+      answers.push(data.results[0].correct_answer);
+      correctAnswer = data.results[0].correct_answer;
+
+      randomAns(answers);
+    });
+  round++;
+  $("#round").text(`Round: ${round}/10`);
+  whatRound(round);
+  $("#level").text(`Level: ${whatRound(round)}`);
+});
+
+$("#question-box").on("click", (f) => {
+  if (f.originalEvent.target.value === correctAnswer && level === "easy") {
+    player.score++;
+    $(".score").text(`Score: ${player.score}`);
+    $("#question").text("correct");
+    $("ol").text("");
+  } else if (
+    f.originalEvent.target.value === correctAnswer &&
+    level === "medium"
+  ) {
+    player.score += 2;
+    $(".score").text(`Score: ${player.score}`);
+    $("#question").text("correct");
+    $("ol").text("");
+  } else if (
+    f.originalEvent.target.value === correctAnswer &&
+    level === "hard"
+  ) {
+    player.score += 3;
+    $(".score").text(`Score: ${player.score}`);
+    $("#final-score").text(`${player.score} Points`);
+
+    $("#question").text("correct");
+    $("ol").text("");
+  } else {
+    $("#question").text("incorrect");
+    $("ol").text("");
+  }
+});
+
 $("#next-question").on("click", () => {
   fetch(
     `https://opentdb.com/api.php?amount=1&category=${randomCat()}&difficulty=${level}&type=multiple`
@@ -85,34 +140,23 @@ $("#next-question").on("click", () => {
       $("#question").text(data.results[0].question);
       answers = data.results[0].incorrect_answers;
       answers.push(data.results[0].correct_answer);
+      correctAnswer = data.results[0].correct_answer;
       randomAns(answers);
-      $("#question-box").on("click", (f) => {
-        correctAnswer = data.results[0].correct_answer;
-        if (
-          f.originalEvent.target.value === correctAnswer &&
-          level === "easy"
-        ) {
-          player.score++;
-          $(".score").text(`Score: ${player.score}`);
-        } else if (
-          f.originalEvent.target.value === correctAnswer &&
-          level === "medium"
-        ) {
-          player.score += 2;
-          $(".score").text(`Score: ${player.score}`);
-        } else if (
-          f.originalEvent.target.value === correctAnswer &&
-          level === "hard"
-        ) {
-          player.score += 3;
-          $(".score").text(`Score: ${player.score}`);
-        } else {
-          return;
-        }
-      });
     });
   round++;
-  $("#round").text(`Round: ${round}/10`);
+  $("#round").text(`Round: ${round}/30`);
   whatRound(round);
   $("#level").text(`Level: ${whatRound(round)}`);
+});
+
+$("#play-again").on("click", () => {
+  player.score = 0;
+  $(".score").text(`Score: ${player.score}`);
+  round = 0;
+  $("#round").text(`Round: ${round}/10`);
+  level = "";
+  $("#level").text(`Level: `);
+  $("#category-span").text(`Category: `);
+  finalscreen.toggle();
+  gamescreen.toggle();
 });
