@@ -5,7 +5,7 @@ let categoriesscreen = $("#categories-screen");
 let gamescreen = $("#game-screen");
 let finalscreen = $("#final-screen");
 
-// ///// TEMPORARY ///// //
+// load conditions
 // startscreen.css("display", "none");
 categoriesscreen.css("display", "none");
 gamescreen.css("display", "none");
@@ -33,8 +33,8 @@ const randomCat = function () {
   return categories[rndInt][1];
 };
 
-// fischer-yates algorithm
 const randomAns = function (array) {
+  // fischer-yates algorithm
   $("ol").text("");
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -64,70 +64,57 @@ const whatRound = function (round) {
   }
 };
 
+const pageUpdate = function () {
+  $(".score").text(`Score: ${player.score}`);
+  $("#question").text("correct");
+  $("ol").text("");
+};
+
+const questionData = function (data) {
+  $("#category-span").text(`Category: ${data.results[0].category}`);
+  $("#question").text(data.results[0].question);
+  answers = data.results[0].incorrect_answers;
+  answers.push(data.results[0].correct_answer);
+  correctAnswer = data.results[0].correct_answer;
+};
+
 // events
 
 $("#name-enter").submit((e) => {
   e.preventDefault();
   player.name = e.originalEvent.submitter.previousElementSibling.value;
-  gamescreen.prepend(`<h3>${player.name}</h3>`);
+  $("#team-name-display").text(`${player.name}`);
 });
 
-$("#start").on("click", () => {
-  startscreen.toggle();
-  gamescreen.toggle();
-  fetch(
-    `https://opentdb.com/api.php?amount=1&category=${randomCat()}&difficulty=${level}&type=multiple`
-  )
-    .then((res) => {
-      return res.json();
-    })
-    .then((data) => {
-      //  console.log(data);
-      $("#category-span").text(`Category: ${data.results[0].category}`);
-      $("#question").text(data.results[0].question);
-      answers = data.results[0].incorrect_answers;
-      answers.push(data.results[0].correct_answer);
-      correctAnswer = data.results[0].correct_answer;
-
-      randomAns(answers);
-    });
-  round++;
-  $("#round").text(`Round: ${round}/10`);
-  whatRound(round);
-  $("#level").text(`Level: ${whatRound(round)}`);
-});
-
-$("#question-box").on("click", (f) => {
+$("ol").on("click", (f) => {
   if (f.originalEvent.target.value === correctAnswer && level === "easy") {
     player.score++;
-    $(".score").text(`Score: ${player.score}`);
-    $("#question").text("correct");
-    $("ol").text("");
+    pageUpdate();
   } else if (
     f.originalEvent.target.value === correctAnswer &&
     level === "medium"
   ) {
     player.score += 2;
-    $(".score").text(`Score: ${player.score}`);
-    $("#question").text("correct");
-    $("ol").text("");
+    pageUpdate();
   } else if (
     f.originalEvent.target.value === correctAnswer &&
     level === "hard"
   ) {
     player.score += 3;
-    $(".score").text(`Score: ${player.score}`);
+    pageUpdate();
     $("#final-score").text(`${player.score} Points`);
-
-    $("#question").text("correct");
-    $("ol").text("");
   } else {
     $("#question").text("incorrect");
     $("ol").text("");
   }
 });
 
-$("#next-question").on("click", () => {
+$("#start").on("click", () => {
+  startscreen.toggle();
+  gamescreen.toggle();
+});
+
+$(".load").on("click", () => {
   fetch(
     `https://opentdb.com/api.php?amount=1&category=${randomCat()}&difficulty=${level}&type=multiple`
   )
@@ -135,13 +122,9 @@ $("#next-question").on("click", () => {
       return res.json();
     })
     .then((data) => {
-      console.log(data);
-      $("#category-span").text(`Category: ${data.results[0].category}`);
-      $("#question").text(data.results[0].question);
-      answers = data.results[0].incorrect_answers;
-      answers.push(data.results[0].correct_answer);
-      correctAnswer = data.results[0].correct_answer;
+      questionData(data);
       randomAns(answers);
+      console.log(correctAnswer);
     });
   round++;
   $("#round").text(`Round: ${round}/30`);

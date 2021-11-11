@@ -16,34 +16,22 @@
       href="https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Mono:wght@100&display=swap"
       rel="stylesheet"
     />
+
     <title>Convivial Dispute</title>
   </head>
   <body>
+    <!-- start screen -->
     <div id="start-screen">
       <h1 id="welcome">Welcome to Convivial Dispute</h1>
       <form action="" id="name-enter">
-        <!-- <label for="num-of-players">Players: </label>
-            <select id="num-of-players" name="players">
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-            </select> -->
         <input type="text" placeholder="  Team Name" />
         <button class="buttons">✔️</button>
       </form>
-      <button class="buttons" id="start">START</button>
+      <button class="buttons load" id="start">START</button>
     </div>
-    <div id="categories-screen">
-      <button class="categories">HISTORY</button
-      ><button class="categories">MUSIC</button
-      ><button class="categories">FILM</button
-      ><button class="categories">SPORTS</button
-      ><button class="categories">COMPUTERS</button
-      ><button class="categories">BOOKS</button>
-    </div>
+    <!-- game screen -->
     <div id="game-screen">
+      <div id="team-name-display"></div>
       <div id="status-bar">
         <span id="level">Level: </span><span id="category-span">Category: </span
         ><span id="round">Round: 0/30</span>
@@ -52,20 +40,12 @@
         <span id="question"> This is a question? </span>
         <ol></ol>
       </div>
-      <button class="buttons" id="next-question">next</button>
+      <button class="buttons load" id="next-question">next</button>
       <div id="game-box">
-        <!-- <form id="team-1-answer" action="">
-          <label for="team-1-answer">Team 1 Answer:</label>
-          <select name="selector" id="selector">
-            <option value="A">A</option>
-            <option value="B">B</option>
-            <option value="C">C</option>
-            <option value="D">D</option>
-          </select>
-        </form> -->
         <p class="score">Score: 0</p>
       </div>
     </div>
+    <!-- final screen -->
     <div id="final-screen">
       <h1>Final Score</h1>
       <h3 id="final-score">0 Points</h3>
