@@ -19,11 +19,12 @@ let round = 0;
 let level = "";
 let answers = [];
 let correctAnswer = "";
+let questionReview = [];
 // functions
 
 const regexReplacer = function (str) {
-  let string = str.replace(/\&quot\;/g, "'");
-  return string.replace(/\&\#039\;/g, "'");
+  let string = str.replace(/\&quot\;/g, '"');
+  return string.replace(/\&\#039\;/g, '"');
 };
 
 const randomAns = function (array) {
@@ -68,9 +69,13 @@ const questionData = function (data) {
   console.log(data.results[0].question);
   $("#category-span").text(`Category: ${data.results[0].category}`);
   $("#question").text(formattedQuestion);
-  answers = data.results[0].incorrect_answers;
+  answers = data.results[0].incorrect_answers.map((answer) =>
+    regexReplacer(answer)
+  );
+  correctAnswer = regexReplacer(data.results[0].correct_answer);
   answers.push(data.results[0].correct_answer);
-  correctAnswer = data.results[0].correct_answer;
+  questionReview.push(`${formattedQuestion}: ${correctAnswer}`);
+  console.log(questionReview);
 };
 
 // events
@@ -119,7 +124,6 @@ $(".load").on("click", () => {
     .then((data) => {
       questionData(data);
       randomAns(answers);
-      console.log(correctAnswer);
     });
   round++;
   $("#round").text(`Round: ${round}/30`);
