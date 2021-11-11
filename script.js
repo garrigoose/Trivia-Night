@@ -28,10 +28,6 @@ const categories = {
   6: ["Computers", 18],
 };
 // functions
-const randomCat = function () {
-  const rndInt = Math.floor(Math.random() * 6) + 1;
-  return categories[rndInt][1];
-};
 
 const randomAns = function (array) {
   // fischer-yates algorithm
@@ -116,7 +112,7 @@ $("#start").on("click", () => {
 
 $(".load").on("click", () => {
   fetch(
-    `https://opentdb.com/api.php?amount=1&category=${randomCat()}&difficulty=${level}&type=multiple`
+    `https://opentdb.com/api.php?amount=1&difficulty=${level}&type=multiple`
   )
     .then((res) => {
       return res.json();
@@ -143,3 +139,5 @@ $("#play-again").on("click", () => {
   finalscreen.toggle();
   gamescreen.toggle();
 });
+
+console.log(Object.keys(categories));
