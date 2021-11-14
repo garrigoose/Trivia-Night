@@ -7,9 +7,10 @@ let finalscreen = $("#final-screen");
 
 // load conditions
 // startscreen.css("display", "none");
-categoriesscreen.css("display", "none");
-gamescreen.css("display", "none");
-finalscreen.css("display", "none");
+categoriesscreen.hide();
+gamescreen.hide();
+finalscreen.hide();
+$("#question-box").hide();
 
 let player = {
   name: "",
@@ -58,8 +59,8 @@ const whatRound = function (round) {
     level = "hard";
     return "hard";
   } else if (round === 31) {
-    gamescreen.css("display", "none");
-    finalscreen.css("display", "");
+    gamescreen.hide();
+    finalscreen.fadeIn("slow");
     $("#final-score").text(`${player.score} Points`);
   }
 };
@@ -67,7 +68,7 @@ const whatRound = function (round) {
 const pageUpdate = function () {
   $(".score").text(`Score: ${player.score}`);
   $("#question").text("correct");
-  $("ol").text("");
+  $("ol").text("").fadeIn("slow");
 };
 
 const questionData = function (data) {
@@ -89,10 +90,12 @@ const questionData = function (data) {
 $("#name-enter").submit((e) => {
   e.preventDefault();
   player.name = e.originalEvent.submitter.previousElementSibling.value;
-  $("#team-name-display").text(`${player.name}`);
+  $("#team-name-display").text(`${player.name}`).fadeIn("slow");
 });
 
 $("ol").on("click", (f) => {
+  $("#question-box").hide();
+  $("#question-box").fadeIn("slow");
   if (f.originalEvent.target.value === correctAnswer && level === "easy") {
     player.score++;
     pageUpdate();
@@ -113,6 +116,8 @@ $("ol").on("click", (f) => {
     $("#question").text("incorrect");
     console.log($("#question"));
     $("#question").on("click", () => {
+      $("#question").hide();
+      $("#question").fadeIn("slow");
       $("#question").text(`${question}: ${correctAnswer}`);
     });
     $("ol").text("");
@@ -120,11 +125,15 @@ $("ol").on("click", (f) => {
 });
 
 $("#start").on("click", () => {
-  startscreen.toggle();
-  gamescreen.toggle();
+  $("#question-box").hide();
+  $("#question-box").fadeIn("slow");
+  startscreen.fadeOut("fast");
+  gamescreen.fadeIn(2000);
 });
 
 $(".load").on("click", () => {
+  $("#question-box").hide();
+  $("#question-box").fadeIn("slow");
   fetch(
     `https://opentdb.com/api.php?amount=1&difficulty=${level}&type=multiple`
   )
@@ -142,6 +151,8 @@ $(".load").on("click", () => {
 });
 
 $("#play-again").on("click", () => {
+  $("#question-box").hide();
+  $("#question-box").fadeIn("slow");
   player.score = 0;
   round = 0;
   level = "";
