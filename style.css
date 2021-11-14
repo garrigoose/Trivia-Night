@@ -30,8 +30,8 @@ body {
 }
 
 #status-bar {
-  width: 99%;
-  font-size: 1.5rem;
+  width: 95%;
+  font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
 }
@@ -88,12 +88,6 @@ ol {
 .answer-buttons:hover,
 .buttons:hover {
   background-color: palegoldenrod;
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  body {
-    background-color: palegoldenrod;
-  }
 }
 
 @media screen and (max-width: 650px) {

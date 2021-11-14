@@ -18,13 +18,18 @@ let player = {
 let round = 0;
 let level = "";
 let answers = [];
+let question = "";
 let correctAnswer = "";
 let questionReview = [];
 // functions
 
 const regexReplacer = function (str) {
-  let string = str.replace(/\&quot\;/g, '"');
-  return string.replace(/\&\#039\;/g, '"');
+  return str
+    .replace(/\&quot\;/g, '"')
+    .replace(/\&\#039\;/g, "'")
+    .replace(/\&eacute\;/g, "e")
+    .replace(/\&uuml\;/g, "u")
+    .replace(/\&amp\;/g, "&");
 };
 
 const randomAns = function (array) {
@@ -55,6 +60,7 @@ const whatRound = function (round) {
   } else if (round === 31) {
     gamescreen.css("display", "none");
     finalscreen.css("display", "");
+    $("#final-score").text(`${player.score} Points`);
   }
 };
 
@@ -66,7 +72,7 @@ const pageUpdate = function () {
 
 const questionData = function (data) {
   let formattedQuestion = regexReplacer(data.results[0].question);
-  console.log(data.results[0].question);
+  question = regexReplacer(data.results[0].question);
   $("#category-span").text(`Category: ${data.results[0].category}`);
   $("#question").text(formattedQuestion);
   answers = data.results[0].incorrect_answers.map((answer) =>
@@ -75,7 +81,7 @@ const questionData = function (data) {
   correctAnswer = regexReplacer(data.results[0].correct_answer);
   answers.push(data.results[0].correct_answer);
   questionReview.push(`${formattedQuestion}: ${correctAnswer}`);
-  console.log(questionReview);
+  console.log(`${question}: ${answers}`);
 };
 
 // events
@@ -105,6 +111,10 @@ $("ol").on("click", (f) => {
     $("#final-score").text(`${player.score} Points`);
   } else {
     $("#question").text("incorrect");
+    console.log($("#question"));
+    $("#question").on("click", () => {
+      $("#question").text(`${question}: ${correctAnswer}`);
+    });
     $("ol").text("");
   }
 });
@@ -141,4 +151,5 @@ $("#play-again").on("click", () => {
   $("#category-span").text(`Category: `);
   finalscreen.toggle();
   gamescreen.toggle();
+  questionReview = "";
 });
