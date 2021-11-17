@@ -6,12 +6,12 @@ let gamescreen = $("#game-screen");
 let finalscreen = $("#final-screen");
 
 // load conditions
-// startscreen.css("display", "none");
 categoriesscreen.hide();
 gamescreen.hide();
 finalscreen.hide();
 $("#question-box").hide();
 
+// state
 let player = {
   name: "",
   score: 0,
@@ -22,15 +22,17 @@ let answers = [];
 let question = "";
 let correctAnswer = "";
 let questionReview = [];
-// functions
+let darkMode = false;
 
+// functions
 const regexReplacer = function (str) {
   return str
     .replace(/\&quot\;/g, '"')
     .replace(/\&\#039\;/g, "'")
     .replace(/\&eacute\;/g, "e")
     .replace(/\&uuml\;/g, "u")
-    .replace(/\&amp\;/g, "&");
+    .replace(/\&amp\;/g, "&")
+    .replace(/\&ldquo\;\;/g, '"');
 };
 
 const randomAns = function (array) {
@@ -41,9 +43,15 @@ const randomAns = function (array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   for (let i = 0; i < array.length; i++) {
+    let darkAnswers = darkMode
+      ? "dark-mode-answers answer-buttons idk"
+      : "answer-buttons";
     $("ol").append(
-      `<li><button value ='${answers[i]}'class="answer-buttons">${answers[i]}</button></li>`
+      `<li><button value ='${answers[i]}'class="${darkAnswers}">${answers[i]}</button></li>`
     );
+    $("answer-buttons").hover(() => {
+      $("answer-buttons").css("border", "whitesmoke");
+    });
   }
   return array;
 };
@@ -90,7 +98,15 @@ const questionData = function (data) {
 $("#name-enter").submit((e) => {
   e.preventDefault();
   player.name = e.originalEvent.submitter.previousElementSibling.value;
-  $("#team-name-display").text(`${player.name}`).fadeIn("slow");
+  $("#team-name-display").text(`${player.name}`);
+});
+
+$("#name-input").on("keypress", (e) => {
+  if (e.which == 13) {
+    e.preventDefault();
+    player.name = e.currentTarget.value;
+    $("#team-name-display").text(`${player.name}`);
+  }
 });
 
 $("ol").on("click", (f) => {
@@ -118,7 +134,8 @@ $("ol").on("click", (f) => {
     $("#question").on("click", () => {
       $("#question").hide();
       $("#question").fadeIn("slow");
-      $("#question").text(`${question}: ${correctAnswer}`);
+      $("#question").text("").append(`<div id='secret-answer'>${question}: 
+      ${correctAnswer}</div>`);
     });
     $("ol").text("");
   }
@@ -164,3 +181,33 @@ $("#play-again").on("click", () => {
   gamescreen.toggle();
   questionReview = "";
 });
+
+$("#dark-mode").on("click", () => {
+  function modalToggle() {}
+  $(document).ready(function () {
+    darkMode = !darkMode;
+    if (!darkMode) {
+      $("#dark-mode").text("DARK");
+    } else {
+      $("#dark-mode").text("LIGHT");
+    }
+    $("body").toggleClass("dark-mode-body");
+    startscreen.toggleClass("dark-mode-modal");
+    gamescreen.toggleClass("dark-mode-modal");
+    finalscreen.toggleClass("dark-mode-modal");
+    $(".buttons").toggleClass("dark-mode-buttons");
+    $(".buttons").toggleClass("dark-mode-buttons:hover");
+    $(".answer-buttons").toggleClass("dark-mode-answers:hover");
+    $("input").toggleClass("dark-mode-input");
+    $("#check").text("✓");
+  });
+});
+
+// multiplayer mode:
+// player selects multiplayer from dropdown
+// input window changes to 'input team 1 name' then changed to 'input team 2 name' on click/enter
+// players are cteated from player class
+// players take turns entering a-d or 1-4 on keyboard, which shows up as * on the screen
+// a submit button is used to compare choice to correct answer
+// there are two score spots on the gamescreen
+// game compares answers to determine winner

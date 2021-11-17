@@ -13,20 +13,28 @@ body {
   align-items: center;
 }
 
-#game-screen,
-#final-screen,
-#start-screen {
+.dark-mode-body {
+  background-color: #2f3e46;
+  color: whitesmoke;
+}
+
+.light-mode-modal {
   height: 550px;
   width: 550px;
   padding-bottom: 5%;
   background-color: floralwhite;
   border-radius: 25px;
-  box-shadow: 8px 8px 8px lightgray;
+  box-shadow: 8px 8px 8px #cad2c5;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   margin: 20px auto;
+}
+
+.dark-mode-modal {
+  background-color: #04151f;
+  color: whitesmoke;
 }
 
 #status-bar {
@@ -54,6 +62,13 @@ input {
   box-shadow: inset 8px 8px 8px lightgray, inset -8px -8px white;
   border-radius: 25px;
   padding: 0 20px;
+}
+
+.dark-mode-input {
+  background-color: #2f3e46;
+  color: whitesmoke;
+  box-shadow: none;
+  font-weight: bold;
 }
 
 #question-box {
@@ -87,6 +102,7 @@ ol {
 }
 .answer-buttons:hover,
 .buttons:hover {
+  border-radius: 5px;
   background-color: palegoldenrod;
 }
 
@@ -114,4 +130,50 @@ ol {
     margin: 0 auto;
     box-shadow: none;
   }
+}
+
+#next-question:hover,
+#play-again:hover {
+  cursor: pointer;
+}
+
+/* @dark-mode {
+  body {
+    background-color: purple;
+  }
+
+  #game-screen {
+    background-color: green;
+  }
+} */
+
+.dark-mode-buttons {
+  background-color: #004445;
+  color: whitesmoke;
+}
+
+.dark-mode-buttons:hover {
+  background-color: #04151f;
+  color: whitesmoke;
+}
+
+.dark-mode-answers {
+  font-family: "Acme", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 2rem;
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+.dark-mode-answers:hover {
+  background-color: whitesmoke;
+  color: #04151f;
+  border-radius: 5px;
+}
+
+.dark-mode-body {
+  background-color: black;
 }
