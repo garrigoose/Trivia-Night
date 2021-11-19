@@ -13,11 +13,6 @@ body {
   align-items: center;
 }
 
-.dark-mode-body {
-  background-color: #2f3e46;
-  color: whitesmoke;
-}
-
 .light-mode-modal {
   height: 550px;
   width: 550px;
@@ -106,6 +101,7 @@ ol {
   background-color: palegoldenrod;
 }
 
+/* media queries */
 @media screen and (max-width: 650px) {
   .answer-buttons,
   #status-bar,
@@ -132,21 +128,7 @@ ol {
   }
 }
 
-#next-question:hover,
-#play-again:hover {
-  cursor: pointer;
-}
-
-/* @dark-mode {
-  body {
-    background-color: purple;
-  }
-
-  #game-screen {
-    background-color: green;
-  }
-} */
-
+/* dark mode */
 .dark-mode-buttons {
   background-color: #004445;
   color: whitesmoke;

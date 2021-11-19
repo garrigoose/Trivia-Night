@@ -130,6 +130,7 @@ $("ol").on("click", (f) => {
     $("#final-score").text(`${player.score} Points`);
   } else {
     $("#question").text("incorrect");
+    // $("#question").append(`<div>${formattedQuestion}: ${correctAnswer}</div>`);
     console.log($("#question"));
     $("#question").on("click", () => {
       $("#question").hide();
@@ -165,6 +166,7 @@ $(".load").on("click", () => {
   $("#round").text(`Round: ${round}/30`);
   whatRound(round);
   $("#level").text(`Level: ${whatRound(round)}`);
+  // $("ol").off("click");
 });
 
 $("#play-again").on("click", () => {
@@ -188,8 +190,16 @@ $("#dark-mode").on("click", () => {
     darkMode = !darkMode;
     if (!darkMode) {
       $("#dark-mode").text("DARK");
+      $("#logo").attr(
+        "src",
+        "https://www.pizza-shoppe.com/wp-content/uploads/2020/08/Trivia-Night-Text-Glow.png"
+      );
     } else {
       $("#dark-mode").text("LIGHT");
+      $("#logo").attr(
+        "src",
+        "https://d3qv95x7wxo28l.cloudfront.net/ilovefc/wp-content/uploads/2020/01/trivianight2.jpg"
+      );
     }
     $("body").toggleClass("dark-mode-body");
     startscreen.toggleClass("dark-mode-modal");
