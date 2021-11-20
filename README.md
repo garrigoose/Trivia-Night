@@ -43,12 +43,11 @@ PS, the game is mobile-friendly!
 
 ## **Technologies Used**
 
-Built with
-HTML
-CSS
-JavaScript
-jQuery
-API
+- HTML
+- CSS
+- JavaScript
+- jQuery
+- API
 
 ## **Setup** **Requirements**
 
@@ -56,8 +55,7 @@ An internet connection is required.
 
 ## **Resources Used**
 
--[Trello](https://trello.com/b/KhSjZZCS/trivia-game)
-
+- [Trello](https://trello.com/b/KhSjZZCS/trivia-game)
 - [MDN](https://developer.mozilla.org/en-US/)
 - [W3Schools](https://www.w3schools.com/)
 - [Geeks for geeks](Geeksforgeeks.org)
@@ -73,23 +71,23 @@ An internet connection is required.
 
 ## **MVP Requirements**
 
-Start screen
-Self-scoring
-Questions populate with choice of answers
-Ability to select and answer and find out result
-Moving on to next question
-Basic variables for state
+- Start screen
+- Self-scoring
+- Questions populate with choice of answers
+- Ability to select and answer and find out result
+- Moving on to next question
+- Basic variables for state
 
 ## **Reach Goals**
 
-Answers highlighting with cursor hover
-Fade animations
-Questions generated from API
-Questions generated randomly
-Randomizing answer choices
-Choose a team name
-Game reset
-Dark mode
+- Answers highlighting with cursor hover
+- Fade animations
+- Questions generated from API
+- Questions generated randomly
+- Randomizing answer choices
+- Choose a team name
+- Game reset
+- Dark mode
 
 ## **User stories**
 
