@@ -36,8 +36,8 @@ const regexReplacer = function (str) {
 };
 
 const randomAns = function (array) {
-  // fischer-yates algorithm
   $("ol").text("");
+  // fischer-yates algorithm
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
@@ -90,7 +90,6 @@ const questionData = function (data) {
   correctAnswer = regexReplacer(data.results[0].correct_answer);
   answers.push(data.results[0].correct_answer);
   questionReview.push(`${formattedQuestion}: ${correctAnswer}`);
-  console.log(`${question}: ${answers}`);
 };
 
 // events
@@ -130,7 +129,6 @@ $("ol").on("click", (f) => {
     $("#final-score").text(`${player.score} Points`);
   } else {
     $("#question").text("incorrect");
-    // $("#question").append(`<div>${formattedQuestion}: ${correctAnswer}</div>`);
     console.log($("#question"));
     $("#question").on("click", () => {
       $("#question").hide();
@@ -166,7 +164,6 @@ $(".load").on("click", () => {
   $("#round").text(`Round: ${round}/30`);
   whatRound(round);
   $("#level").text(`Level: ${whatRound(round)}`);
-  // $("ol").off("click");
 });
 
 $("#play-again").on("click", () => {
@@ -212,12 +209,3 @@ $("#dark-mode").on("click", () => {
     $("#check").text("✓");
   });
 });
-
-// multiplayer mode:
-// player selects multiplayer from dropdown
-// input window changes to 'input team 1 name' then changed to 'input team 2 name' on click/enter
-// players are cteated from player class
-// players take turns entering a-d or 1-4 on keyboard, which shows up as * on the screen
-// a submit button is used to compare choice to correct answer
-// there are two score spots on the gamescreen
-// game compares answers to determine winner
