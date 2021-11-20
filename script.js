@@ -129,7 +129,6 @@ $("ol").on("click", (f) => {
     $("#final-score").text(`${player.score} Points`);
   } else {
     $("#question").text("incorrect");
-    console.log($("#question"));
     $("#question").on("click", () => {
       $("#question").hide();
       $("#question").fadeIn("slow");
