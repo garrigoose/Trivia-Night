@@ -36,7 +36,8 @@ After round 30 your final score is presented. Not happy? Want to play some more?
 Have fun!
 
 ![mobile screen](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/Screen_Shot_2021-11-19_at_7.13.58_AM.png?width=450&height=278&crop=fill)
-PS
+
+PS, the game is mobile-friendly!
 
 **Technologies Used**
 
