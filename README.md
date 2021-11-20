@@ -1,6 +1,6 @@
 # Flex 928 - Project 1 - Trivia Game ![Winter Is Coming](https://media.giphy.com/media/l378kZMdRzNm4wvhC/giphy.gif)
 
-**About The Project**
+## **About The Project**
 
 ![Trivia Home Screen](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/home-screen.png)
 
@@ -39,7 +39,7 @@ Have fun!
 
 PS, the game is mobile-friendly!
 
-**Technologies Used**
+## **Technologies Used**
 
 Built with
 HTML
@@ -48,11 +48,11 @@ JavaScript
 jQuery
 API
 
-**Setup** **Requirements**
+## **Setup** **Requirements**
 
 An internet connection is required.
 
-**Resources Used**
+## **Resources Used**
 
 -[Trello](https://trello.com/b/KhSjZZCS/trivia-game)
 
@@ -61,7 +61,7 @@ An internet connection is required.
 - [Geeks for geeks](Geeksforgeeks.org)
 - [Web Dev Simplified](https://www.youtube.com/watch?v=rhzKDrUiJVk&t=6s)
 
-**Cool Things**
+## **Cool Things**
 
 - Fade animations
 - Dark mode toggle
@@ -69,7 +69,7 @@ An internet connection is required.
 - Regular Expressions
 - [Fisher-Yates Shuffle](https://www.geeksforgeeks.org/shuffle-a-given-array-using-fisher-yates-shuffle-algorithm/)
 
-**MVP Requirements**
+## **MVP Requirements**
 
 Start screen
 Self-scoring
@@ -78,7 +78,7 @@ Ability to select and answer and find out result
 Moving on to next question
 Basic variables for state
 
-**Reach Goals**
+## **Reach Goals**
 
 Answers highlighting with cursor hover
 Fade animations
@@ -89,7 +89,7 @@ Choose a team name
 Game reset
 Dark mode
 
-**User stories**
+## **User stories**
 
 - As a player, I want to be able to answer a question and see whether - my answer is correct.
 - As a player, I want to be able to keep my answers a secret from the other team.
@@ -98,12 +98,12 @@ Dark mode
 - As a player, I want the game to increase in difficulty as the game progresses.
 - As a player, I want to choose a category every round.
 
-**Initial Wireframe**
+## **Initial Wireframe**
 
 [Initial Wireframe](https://media.git.generalassemb.ly/user/38981/files/f4164080-40b5-11ec-9287-61b537bbde11)
 
 Game was modified into a single-player in order to streamline game logic and deliver polished mvp.
 
-**Special Thanks**
+## **Special Thanks**
 
 Billie, Paresh & Matt. Helped me get from blank incomprehension to 'I think I get it now"
