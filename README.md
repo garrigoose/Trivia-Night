@@ -6,7 +6,7 @@
 
 ![Trivia Home Screen](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/home-screen.png)
 
-Flex Trivia by Garri Kats. A fun, intuitive, single-player trivia game built on the technologies learned in the first level of the General Assembly Software Engineering Immersive Bootcamp. Test your wit though 30 levels of facts pulled from the Open Trivia Database. Difficult increases from easy in levels 1-10, medium in levels 11-20 and hard in levels 21-30. Once you see your final score, hit 'play again' for another round!
+Flex Trivia by Garri Kats. A fun, intuitive, single-player trivia game built on the technologies learned in the first level of the General Assembly Software Engineering Immersive Bootcamp. Test your wit though 30 levels of facts pulled from the Open Trivia Database. Difficulty increases from easy in levels 1-10, medium in levels 11-20 and hard in levels 21-30. Once you see your final score, hit 'play again' for another round!
 
 ![Dark Mode Home Screen](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/dark-mode-1.png)
 
@@ -14,7 +14,7 @@ Tired eyes? Toggle dark mode to give them a rest.
 
 ![Select a team name](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/home-screen-team-name.png)
 
-No trivia game is complete without a whitty team name. Select yours, click the check mark, and it will appear on your game screen.
+No trivia game is complete without a witty team name. Select your team name, click the check mark, and it will appear on your game screen.
 
 ![Game screen](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/answer-select.png)
 
@@ -29,7 +29,7 @@ Didn't get a question correct? Check for the right answer by clicking on the wor
 
 ![Hard level](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/hard.png)
 
-Easy scores 1 point per correct answer. Medium scores 2 and you receieve 3 points for every correct answer in the hard levels.
+Easy scores 1 point per correct answer. Medium scores 2 and you receive 3 points for every correct answer in the hard levels.
 
 ![Final Screen](https://hosting.photobucket.com/images/ae120/thecrumblechronicles/final.png)
 

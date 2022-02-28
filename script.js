@@ -208,3 +208,5 @@ $("#dark-mode").on("click", () => {
     $("#check").text("✓");
   });
 });
+
+$("#check").mousedown(() => $("#check").text("✅"));
